@@ -31,7 +31,7 @@ define(["require", "jquery", "util", "session", "ui", "templates", "playback", "
     });
   });
 
-  chat.submit = function (message) {    
+  chat.submit = function (message) {
     var parts = message.split(/ /);
     if (parts[0].charAt(0) == "/") {
       var name = parts[0].substr(1).toLowerCase();
