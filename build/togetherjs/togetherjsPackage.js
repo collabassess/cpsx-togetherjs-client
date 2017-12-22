@@ -4779,7 +4779,6 @@ And must call:
             $("#togetherjs-share-button").click(function () {
                 windowing.toggle("#togetherjs-share");
             });
-            adjustDockSize(-1);
             $("#togetherjs-share-button").hide();
 
             $("#togetherjs-profile-button").click(function (event) {

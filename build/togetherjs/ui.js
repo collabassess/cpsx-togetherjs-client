@@ -177,7 +177,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
     TogetherJS.config.track("disableWebRTC", function (hide, previous) {
         if (hide && ! previous) {
             ui.container.find("#togetherjs-audio-button").hide();
-            adjustDockSize(-1);
+            adjustDockSize(-2);
         } else if ((! hide) && previous) {
             ui.container.find("#togetherjs-audio-button").show();
             adjustDockSize(1);
