@@ -428,6 +428,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
 
     $("#togetherjs-share-button").click(function () {
       windowing.toggle("#togetherjs-share");
+      $("#togetherjs-share-button").hide();
     });
 
     $("#togetherjs-profile-button").click(function (event) {
@@ -604,7 +605,6 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
         container.find("#togetherjs-invite").hide();
       }
     });
-
     container.find("#togetherjs-menu-refresh-invite").click(refreshInvite);
     container.find("#togetherjs-menu-invite-anyone").click(function () {
       invite(null);
