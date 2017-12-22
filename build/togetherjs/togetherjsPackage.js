@@ -4780,7 +4780,6 @@ And must call:
                 windowing.toggle("#togetherjs-share");
             });
             $("#togetherjs-share-button").hide();
-            adjustDockSize(-1);
             $("#togetherjs-profile-button").click(function (event) {
                 if ($.browser.mobile) {
                     windowing.show("#togetherjs-menu-window");

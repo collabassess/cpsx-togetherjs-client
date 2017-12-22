@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,9 +91,9 @@
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="4782" column="31" lean-forward="false" selection-start-line="4782" selection-start-column="31" selection-end-line="4782" selection-end-column="31" />
+              <caret line="4782" column="0" lean-forward="false" selection-start-line="4782" selection-start-column="0" selection-end-line="4782" selection-end-column="0" />
               <folding>
-                <marker date="1513911998412" expanded="true" signature="346127:346237" ph="..." />
+                <marker date="1513912505885" expanded="true" signature="346095:346205" ph="..." />
               </folding>
             </state>
           </provider>
@@ -216,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513897877495</updated>
-      <workItem from="1513897878806" duration="6292000" />
+      <workItem from="1513897878806" duration="6470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6292000" />
+    <option name="totallyTimeSpent" value="6470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -336,9 +335,9 @@
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="4782" column="31" lean-forward="false" selection-start-line="4782" selection-start-column="31" selection-end-line="4782" selection-end-column="31" />
+          <caret line="4782" column="0" lean-forward="false" selection-start-line="4782" selection-start-column="0" selection-end-line="4782" selection-end-column="0" />
           <folding>
-            <marker date="1513911998412" expanded="true" signature="346127:346237" ph="..." />
+            <marker date="1513912505885" expanded="true" signature="346095:346205" ph="..." />
           </folding>
         </state>
       </provider>
