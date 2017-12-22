@@ -4524,13 +4524,13 @@ And must call:
                 $(this).append($('<button class="togetherjs-close"></button>'));
             });
 
-            TogetherJS.config.track("disableWebRTC", function (hide, previous) {
-                if (hide && ! previous) {
-                    ui.container.find("#togetherjs-audio-button").hide();
-                    adjustDockSize(-1);
-                } else if ((! hide) && previous) {
+            TogetherJS.config.track("disableWebRTC", function (hide) {
+                if (hide) {
                     ui.container.find("#togetherjs-audio-button").show();
                     adjustDockSize(1);
+                } else {
+                    ui.container.find("#togetherjs-audio-button").hide();
+                    adjustDockSize(-1);
                 }
             });
 
@@ -9339,7 +9339,7 @@ And must call:
             mediaConstraints.mandatory.MozDontOfferDataChannel = true;
         }
 
-        var URL = window.URL;
+        var URL =  window.URL;
         var RTCSessionDescription = window.mozRTCSessionDescription || window.webkitRTCSessionDescription || window.RTCSessionDescription;
         var RTCIceCandidate = window.mozRTCIceCandidate || window.webkitRTCIceCandidate || window.RTCIceCandidate;
 
