@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/togetherjs/ui.js" afterPath="$PROJECT_DIR$/build/togetherjs/ui.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,10 +91,10 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="4531" column="20" lean-forward="true" selection-start-line="4531" selection-start-column="20" selection-end-line="4531" selection-end-column="20" />
+            <state relative-caret-position="281">
+              <caret line="4782" column="12" lean-forward="false" selection-start-line="4782" selection-start-column="12" selection-end-line="4782" selection-end-column="12" />
               <folding>
-                <marker date="1513907182916" expanded="true" signature="346046:346156" ph="..." />
+                <marker date="1513910311150" expanded="true" signature="346108:346218" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,9 +107,9 @@
       <find>getConfig</find>
       <find>adjustDockSize</find>
       <find>webkitURL</find>
-      <find>togetherjs-share-button</find>
-      <find>disableWebRTC</find>
       <find>track</find>
+      <find>disableWebRTC</find>
+      <find>togetherjs-share-button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/togetherjs/togetherjsPackage.js" />
         <option value="$PROJECT_DIR$/build/togetherjs-min.js" />
         <option value="$PROJECT_DIR$/build/togetherjs/interface.html" />
-        <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
         <option value="$PROJECT_DIR$/build/togetherjs/ui.js" />
+        <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
       </list>
     </option>
   </component>
@@ -215,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513897877495</updated>
-      <workItem from="1513897878806" duration="4978000" />
+      <workItem from="1513897878806" duration="5873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4978000" />
+    <option name="totallyTimeSpent" value="5873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -232,7 +232,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15920398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18159205" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -305,6 +305,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="183" column="9" lean-forward="true" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1513907281038" expanded="true" signature="41637:41748" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -321,23 +332,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/togetherjs/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="183" column="9" lean-forward="true" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1513907281038" expanded="true" signature="41637:41748" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="4531" column="20" lean-forward="true" selection-start-line="4531" selection-start-column="20" selection-end-line="4531" selection-end-column="20" />
+        <state relative-caret-position="281">
+          <caret line="4782" column="12" lean-forward="false" selection-start-line="4782" selection-start-column="12" selection-end-line="4782" selection-end-column="12" />
           <folding>
-            <marker date="1513907182916" expanded="true" signature="346046:346156" ph="..." />
+            <marker date="1513910311150" expanded="true" signature="346108:346218" ph="..." />
           </folding>
         </state>
       </provider>
