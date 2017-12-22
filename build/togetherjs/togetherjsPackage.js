@@ -4779,8 +4779,6 @@ And must call:
             $("#togetherjs-share-button").click(function () {
                 windowing.toggle("#togetherjs-share");
             });
-            $("#togetherjs-share-button").hide();
-
             $("#togetherjs-profile-button").click(function (event) {
                 if ($.browser.mobile) {
                     windowing.show("#togetherjs-menu-window");
