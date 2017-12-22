@@ -178,7 +178,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
       if (hide && ! previous) {
         ui.container.find("#togetherjs-audio-button").show();
         adjustDockSize(-1);
-      } else if ((! hide) && previous) {
+      } else {
         ui.container.find("#togetherjs-audio-button").hide();
         adjustDockSize(1);
       }
