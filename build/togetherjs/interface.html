@@ -101,15 +101,10 @@
             <span class="tj-name togetherjs-person-name">NAME</span>
             <span class="tj-status">&#9679;</span>
             <p class="tj-urllocation">{{ gettext('Currently at:') }} <a class="togetherjs-person-url togetherjs-person-url-title" href="">http://www.location.comwww.location.comwww.location.comasdfsafd</a></p>
-            <p class="tj-follow">{{ gettext('Follow:') }}
-              <label class="togetherjs-follow-question" for="togetherjs-person-status-follow">
-                <input type="checkbox" id="togetherjs-person-status-follow">
-              </label>
-            </p>
             <section class="togetherjs-buttons">
               <!-- Displayed when the peer is at a different URL: -->
               <div class="togetherjs-different-url">
-                <a class="togetherjs-nudge togetherjs-default tj-btn-sm">{{ gettext('Nudge them') }}</a>
+                <!--<a class="togetherjs-nudge togetherjs-default tj-btn-sm">{{ gettext('Nudge them') }}</a>-->
                 <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm">{{ gettext('Join them') }}</a>
               </div>
               <!-- Displayed when the peer is at your same URL: -->
@@ -117,6 +112,12 @@
                 <span class="togetherjs-person-name"></span> {{ gettext('is on the same page as you.')}}
               </div>
             </section>
+            <p class="tj-follow">{{ gettext('Follow:') }}
+              <label class="togetherjs-follow-question" for="togetherjs-person-status-follow">
+                <input type="checkbox" id="togetherjs-person-status-follow">
+              </label>
+            </p>
+
           </li>
         </ul>
     </section>
@@ -151,7 +152,7 @@
     <section class="togetherjs-buttons">
       <!-- Displayed when the peer is at a different URL: -->
       <div class="togetherjs-different-url">
-        <a class="togetherjs-nudge togetherjs-default">{{ gettext('Nudge them') }}</a>
+        <!--<a class="togetherjs-nudge togetherjs-default">{{ gettext('Nudge them') }}</a>-->
         <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary">{{ gettext('Join them') }}</a>
       </div>
       <!-- Displayed when the peer is at your same URL: -->

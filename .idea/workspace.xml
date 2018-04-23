@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/togetherjs/interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/interface.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interface.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="5363" column="36" selection-start-line="5363" selection-start-column="36" selection-end-line="5363" selection-end-column="36" />
+            <state relative-caret-position="262">
+              <caret line="5364" column="49" lean-forward="true" selection-start-line="5364" selection-start-column="49" selection-end-line="5364" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -82,10 +95,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/build/togetherjs/interface.html" />
         <option value="$PROJECT_DIR$/build/togetherjs/togetherjs.css" />
         <option value="$PROJECT_DIR$/build/togetherjs/ui.js" />
         <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
+        <option value="$PROJECT_DIR$/build/togetherjs/interface.html" />
       </list>
     </option>
   </component>
@@ -175,25 +188,25 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="3927000" />
+      <workItem from="1524520121423" duration="4347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13519000" />
+    <option name="totallyTimeSpent" value="13939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20014094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20014094" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14713217" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14713217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -228,13 +241,7 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1524521177285" expanded="false" signature="895:908" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2069:2082" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2219:2232" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2369:2382" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2517:2530" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2664:2677" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2811:2824" ph="..." />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -306,13 +313,7 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1524521177285" expanded="false" signature="895:908" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2069:2082" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2219:2232" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2369:2382" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2517:2530" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2664:2677" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2811:2824" ph="..." />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,13 +385,7 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1524521177285" expanded="false" signature="895:908" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2069:2082" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2219:2232" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2369:2382" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2517:2530" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2664:2677" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2811:2824" ph="..." />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -441,13 +436,7 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1524521177285" expanded="false" signature="895:908" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2069:2082" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2219:2232" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2369:2382" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2517:2530" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2664:2677" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2811:2824" ph="..." />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,22 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="228" column="35" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="35" />
-          <folding>
-            <marker date="1524521177285" expanded="false" signature="895:908" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2069:2082" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2219:2232" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2369:2382" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2517:2530" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2664:2677" ph="..." />
-            <marker date="1524521177285" expanded="false" signature="2811:2824" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -569,12 +542,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="5363" column="36" selection-start-line="5363" selection-start-column="36" selection-end-line="5363" selection-end-column="36" />
+        <state relative-caret-position="262">
+          <caret line="5364" column="49" lean-forward="true" selection-start-line="5364" selection-start-column="49" selection-end-line="5364" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <marker date="1524525732324" expanded="true" signature="345897:346007" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
