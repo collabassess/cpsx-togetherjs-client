@@ -5370,6 +5370,7 @@ And must call:
                     section.append(el.clone(true, true));
                     if (section.data("message-id") != id)  {
                         section.data("message-id", id || "");
+                        console.log("here it is...finalky");
                         windowing.show(popup);
                     } else if (! popup.is(":visible")) {
                         windowing.show(popup);
