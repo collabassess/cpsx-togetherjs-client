@@ -1001,6 +1001,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
       var container = ui.container.find("#togetherjs-chat-messages");
       assert(container.length);
       var popup = ui.container.find("#togetherjs-chat-notifier");
+      console.log("this should work here right? or wrong?");
       container.append(el);
       ui.chat.scroll();
       var doNotify = !! notify;
