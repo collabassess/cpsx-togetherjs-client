@@ -5360,6 +5360,8 @@ And must call:
                     ui.container.find("#togetherjs-notification")[0].play();
                 }
                 console.log("id:"+id);
+                console.log(doNotify);
+                console.log(notify);
                 console.log(section.data("message-id"));
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
