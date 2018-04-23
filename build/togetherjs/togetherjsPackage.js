@@ -1,4 +1,6 @@
 (function() {
+
+    console.log("hellow togherthePacker")
     /**
      * almond 0.2.5 Copyright (c) 2011-2012, The Dojo Foundation All Rights Reserved.
      * Available via the MIT or new BSD license.
