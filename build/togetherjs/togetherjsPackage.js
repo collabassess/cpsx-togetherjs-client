@@ -5371,6 +5371,7 @@ And must call:
                     if (section.data("message-id") != id)  {
                         section.data("message-id", id || "");
                         console.log("here it is...finalky");
+                        console.log("id:"+id);
                         windowing.show(popup);
                     } else if (! popup.is(":visible")) {
                         windowing.show(popup);
