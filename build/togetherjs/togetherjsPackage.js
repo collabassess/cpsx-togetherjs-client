@@ -5361,7 +5361,9 @@ And must call:
                 }
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
+                    console.log("id:"+id);
                 }
+                //dont pop up for page change
                 if (container.is(":visible") || id.includes("url-change") ) {
                     doNotify = false;
                 }
@@ -5370,8 +5372,6 @@ And must call:
                     section.append(el.clone(true, true));
                     if (section.data("message-id") != id)  {
                         section.data("message-id", id || "");
-                        console.log("here it is...finalky");
-                        console.log("id:"+id);
                         windowing.show(popup);
                     } else if (! popup.is(":visible")) {
                         windowing.show(popup);

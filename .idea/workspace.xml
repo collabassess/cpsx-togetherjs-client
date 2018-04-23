@@ -28,12 +28,12 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="5364" column="74" selection-start-line="5364" selection-start-column="74" selection-end-line="5364" selection-end-column="74" />
+            <state relative-caret-position="220">
+              <caret line="5363" column="42" selection-start-line="5363" selection-start-column="42" selection-end-line="5363" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+                <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
               </folding>
             </state>
           </provider>
@@ -175,12 +175,12 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="3380000" />
+      <workItem from="1524520121423" duration="3637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12972000" />
+    <option name="totallyTimeSpent" value="13229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -193,7 +193,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25810474" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14713217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,7 +246,7 @@
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+            <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
           </folding>
         </state>
       </provider>
@@ -324,7 +324,7 @@
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+            <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
           </folding>
         </state>
       </provider>
@@ -402,7 +402,7 @@
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+            <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
           </folding>
         </state>
       </provider>
@@ -459,7 +459,7 @@
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+            <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
           </folding>
         </state>
       </provider>
@@ -569,12 +569,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="5364" column="74" selection-start-line="5364" selection-start-column="74" selection-end-line="5364" selection-end-column="74" />
+        <state relative-caret-position="220">
+          <caret line="5363" column="42" selection-start-line="5363" selection-start-column="42" selection-end-line="5363" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1524525064884" expanded="true" signature="345787:345897" ph="..." />
+            <marker date="1524525418376" expanded="true" signature="345768:345878" ph="..." />
           </folding>
         </state>
       </provider>
