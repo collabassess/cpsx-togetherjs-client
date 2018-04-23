@@ -5359,9 +5359,9 @@ And must call:
                 if (notify && visibilityApi.hidden()) {
                     ui.container.find("#togetherjs-notification")[0].play();
                 }
+                console.log("id:"+id);
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
-                    console.log("id:"+id);
                 }
                 //dont pop up for page change
                 if (container.is(":visible") || id.includes("url-change") ) {
