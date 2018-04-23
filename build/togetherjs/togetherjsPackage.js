@@ -5362,7 +5362,7 @@ And must call:
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
                 }
-                if (container.is(":visible") || id.includes("url-change")) {
+                if (container.is(":visible") || id.includes("url-change") ) {
                     doNotify = false;
                 }
                 if (doNotify) {
