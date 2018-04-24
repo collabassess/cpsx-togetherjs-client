@@ -2436,7 +2436,7 @@ And must call:
                 "      </div> -->\n" +
                 "\n" +
                 "      <!-- Template for when someone goes to a new URL: -->\n" +
-                "      <!--<div id=\"togetherjs-template-url-change\" class=\"togetherjs-chat-item togetherjs-chat-url-change\">-->\n" +
+                "      <div id=\"togetherjs-template-url-change\" class=\"togetherjs-chat-item togetherjs-chat-url-change\">\n" +
                 "        <!--<div class=\"togetherjs-person\"></div>-->\n" +
                 "        <!--<div class=\"togetherjs-inline-text\">-->\n" +
                 "          <!--<div class=\"togetherjs-if-sameUrl\">-->\n" +
@@ -2461,9 +2461,8 @@ And must call:
                 "\n" +
                 "          <!--</div>-->\n" +
                 "        <!--</div>-->\n" +
-                "      <!--</div>-->\n" +
                 "        <div class=\"togetherjs-clear\"></div>\n" +
-                "\n" +
+                "      </div>\n" +
                 "    </div>\n" +
                 "\n" +
                 "    <section id=\"togetherjs-chat-messages\">\n" +
