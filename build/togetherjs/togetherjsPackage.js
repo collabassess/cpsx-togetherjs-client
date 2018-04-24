@@ -5841,6 +5841,7 @@ And must call:
                 // http://example.com/foobar, and someone goes to http://example.com/baz then
                 // show only /baz
                 console.log(attrs);
+                console.log("self"+attrs.peer.isSelf);
                 // FIXME: truncate long titles
                 if (attrs.title) {
                     title = attrs.title + " (" + attrs.url + ")";
@@ -5866,7 +5867,7 @@ And must call:
                     location.href = url;
                 });
                 var notify = ! attrs.sameUrl;
-                if(attrs.sameUrl){
+                if(attrs.sameUrl && !attrs.peer.isSelf){
                     session.UrlChangeHandler = true;
                 }
                 if (attrs.sameUrl && ! $("#" + realId).length) {
