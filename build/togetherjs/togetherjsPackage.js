@@ -5868,7 +5868,7 @@ And must call:
                 var notify = ! attrs.sameUrl;
                 if(attrs.sameUrl){
                     session.UrlChangeHandler = true;
-                    session.UrlChangeHandlerPopup = true;
+                    session.UrlChangeHandlerPopup = false;
                 }
                 if (attrs.sameUrl && ! $("#" + realId).length) {
                     // Don't bother showing a same-url notification, if no previous notification
