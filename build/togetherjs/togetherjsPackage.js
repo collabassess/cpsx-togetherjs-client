@@ -5931,7 +5931,7 @@ And must call:
                     doNotify = true;
                 }
                 //dont pop up for page change
-                if (container.is(":visible")) {
+                if (container.is(":visible") || !session.UrlChangeHandler) {
                     doNotify = false;
                 }
                 if (doNotify) {
