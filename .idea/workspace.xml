@@ -2,314 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/analytics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/channels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/cursor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/elementFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/elementFinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/eventMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/eventMaker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/help.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/btn-menu-change-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/btn-menu-change-avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-chat-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-chat-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-chat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-end-session.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-end-session.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-mic-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-mic-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-mic-inactive.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-mic-inactive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-mic.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-mic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-pencil.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-pencil.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-share-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-share-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-share-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-share-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/button-share.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/button-share.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/connect-logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/connect-logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/cursor-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/cursor-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/cursor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/cursor.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/default-avatar-waiting.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/default-avatar-waiting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/default-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/default-avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-arrow-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-arrow-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-handle-circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-handle-circle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-handle-circle@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-handle-circle@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-triangle-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-triangle-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-l-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-l-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-l.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-l.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-r-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-r-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-r.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icn-walkthrough-arrow-r.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icon-close-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icon-close-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icon-close-active@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icon-close-active@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icon-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icon-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icon-close@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icon-close@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/icon-profile-triangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/icon-profile-triangle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/notification-btn-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/notification-btn-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/notification-btn-close@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/notification-btn-close@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/notification-togetherjs-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/notification-togetherjs-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/notification.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/notification.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/robot-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/robot-avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/togetherjs-logo-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/togetherjs-logo-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/togetherjs-logo-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/togetherjs-logo-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-chat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-intro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-invite.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-invite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-participant.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-participant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-rtc.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/images/walkthrough-images-rtc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/interface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/jqueryPlugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/jqueryPlugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/almond.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/almond.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/jquery-1.11.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/require-nomin.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/require-nomin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/require.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/tinycolor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/tinycolor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/lib/esprima.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/lib/esprima.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/lib/falafel.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/lib/falafel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/node-proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/node-proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_overlap.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_overlap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_overlap.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_overlap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout_nojquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout_nojquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout_nojquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/test_walkabout_nojquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/traverse-rewrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/traverse-rewrite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/walkabout.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/walkabout/walkabout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/mersenne.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/mersenne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/random.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/random.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/test_random.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/test_random.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/test_random.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/libs/whrandom/test_random.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/linkify.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/linkify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/locale/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/locale/en-US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/locale/es-BO.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/locale/es-BO.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/locale/pl-PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/locale/pl-PL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/locale/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/locale/ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/module-descriptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/module-descriptions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/ot.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/ot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/peers.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/peers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/playback.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/playback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/randomutil.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/randomutil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/recorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/recorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/recorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/recorder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/session.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/startup.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/startup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/templating.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/ace.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/ace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/codemirror4.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/codemirror4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/doctest.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/doctest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/doctest.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/doctest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/long-running-tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/long-running-tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/long-running-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/examples/long-running-tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/reference.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/try.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/try.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/doctestjs/tutorial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_ace.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_ace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_codemirror.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_misc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_peer_status.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_peer_status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/func_walkthrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/func_walkthrough.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/interactive.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/interactive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/manual/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/manual/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/manual/multi-textarea-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/manual/multi-textarea-focus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/manual/youtube-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/manual/youtube-video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/mobiletest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/mobiletest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_console.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_elementFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_elementFinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_linkify.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_linkify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_misc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_ot.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_ot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_ot_text.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_ot_text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_resolves.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_resolves.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/test_storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/test_storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/testutils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/testutils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/animations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/jquery.transit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/tests/togetherjs-animations/js/jquery.transit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjs.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/videos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/visibilityApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/visibilityApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/walkabout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/walkabout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/walkthrough.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/walkthrough.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/walkthrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/walkthrough.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/webrtc.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/webrtc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/who.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/who.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/windowing.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/windowing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/youtubeVideos.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/youtubeVideos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/channels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/console.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/cursor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/elementFinder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/eventMaker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/fonts/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/fonts/OpenSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/fonts/OpenSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/forms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/help.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/btn-menu-change-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-chat-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-end-session.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-mic-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-mic-inactive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-mic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-pencil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-share-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-share-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/button-share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/connect-logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/cursor-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/cursor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/default-avatar-waiting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/default-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-arrow-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-gear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-handle-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-handle-circle@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-triangle-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-walkthrough-arrow-l-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-walkthrough-arrow-l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-walkthrough-arrow-r-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icn-walkthrough-arrow-r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icon-close-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icon-close-active@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icon-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icon-close@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/icon-profile-triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/notification-btn-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/notification-btn-close@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/notification-togetherjs-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/notification.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/robot-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/togetherjs-logo-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/togetherjs-logo-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-intro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-invite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-participant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/images/walkthrough-images-rtc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/interface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/jqueryPlugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/almond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/require-nomin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/require.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/tinycolor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/lib/esprima.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/lib/falafel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/node-proxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_overlap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_overlap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_walkabout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_walkabout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_walkabout_nojquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/test_walkabout_nojquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/traverse-rewrite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/walkabout/walkabout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/whrandom/mersenne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/whrandom/random.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/whrandom/test_random.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/libs/whrandom/test_random.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/linkify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/locale/en-US.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/locale/es-BO.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/locale/pl-PL.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/locale/ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/module-descriptions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/ot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/peers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/playback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/randomutil.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/recorder.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/recorder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/recorder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/session.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/startup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templates-en-US.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templates-en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templates-es-BO.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templates-es-BO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templates-pl-PL.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templates-pl-PL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templates-ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/templates-ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/templating.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/ace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/codemirror4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/bin/doctest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/doctest.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/doctest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/examples/examples-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/examples/examples-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/examples/examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/examples/long-running-tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/examples/long-running-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/reference.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/try.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/doctestjs/tutorial.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_ace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_forms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_misc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_peer_status.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/func_walkthrough.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/interactive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/manual/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/manual/multi-textarea-focus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/manual/youtube-video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/mobiletest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_console.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_elementFinder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_linkify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_misc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_ot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_ot_text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_resolves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/test_storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/testutils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/togetherjs-animations/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/togetherjs-animations/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/togetherjs-animations/js/animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/togetherjs-animations/js/jquery-1.8.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/tests/togetherjs-animations/js/jquery.transit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/togetherjs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/videos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/visibilityApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/walkabout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/walkthrough.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/walkthrough.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/webrtc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/who.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/windowing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build2/togetherjs/youtubeVideos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -344,8 +37,13 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="395">
+              <caret line="2225" column="12349" selection-start-line="2225" selection-start-column="12349" selection-end-line="2225" selection-end-column="12349" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -381,6 +79,7 @@
       <find>260</find>
       <find>togetherjs-buttons</find>
       <find>togetherjs-dock</find>
+      <find>nudge</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -397,12 +96,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build/togetherjs/togetherjs.css" />
         <option value="$PROJECT_DIR$/build/togetherjs/ui.js" />
-        <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
         <option value="$PROJECT_DIR$/build/togetherjs/interface.html" />
         <option value="$PROJECT_DIR$/dev_files/interface.html" />
         <option value="$PROJECT_DIR$/build2/togetherjs/togetherjs.css" />
         <option value="$PROJECT_DIR$/build2/togetherjs/togetherjsPackage.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
       </list>
     </option>
   </component>
@@ -488,12 +187,12 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="7191000" />
+      <workItem from="1524520121423" duration="7724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16783000" />
+    <option name="totallyTimeSpent" value="17316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,8 +205,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2248062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.066948555" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -515,7 +215,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30922693" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30922693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,6 +259,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51084">
           <caret line="2223" column="6966" selection-start-line="2223" selection-start-column="6966" selection-end-line="2223" selection-end-column="6966" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,6 +332,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51084">
           <caret line="2223" column="6966" selection-start-line="2223" selection-start-column="6966" selection-end-line="2223" selection-end-column="6966" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,6 +405,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51084">
           <caret line="2223" column="6966" selection-start-line="2223" selection-start-column="6966" selection-end-line="2223" selection-end-column="6966" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,6 +457,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105182">
           <caret line="4781" selection-start-line="4781" selection-end-line="4781" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,8 +617,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="395">
+          <caret line="2225" column="12349" selection-start-line="2225" selection-start-column="12349" selection-end-line="2225" selection-end-column="12349" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
