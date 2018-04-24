@@ -5925,9 +5925,8 @@ And must call:
                 if (notify && visibilityApi.hidden()) {
                     ui.container.find("#togetherjs-notification")[0].play();
                 }
-                console.log("id:"+id);
-                console.log(doNotify);
-                console.log(section.data("message-id"));
+                console.log("url popup handler"+session.UrlChangeHandlerPopup);
+
                 if (id && section.data("message-id") == id && session.UrlChangeHandlerPopup) {
                     doNotify = true;
                     session.UrlChangeHandlerPopup = false;
