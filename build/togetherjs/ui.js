@@ -172,14 +172,16 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
       $(this).append($('<button class="togetherjs-close"></button>'));
     });
 
+
+
     TogetherJS.config.track("disableWebRTC", function (hide, previous) {
-      if (hide && ! previous) {
-        ui.container.find("#togetherjs-audio-button").hide();
-        adjustDockSize(-1);
-      } else if ((! hide) && previous) {
-        ui.container.find("#togetherjs-audio-button").show();
-        adjustDockSize(1);
-      }
+        if (hide && ! previous) {
+            ui.container.find("#togetherjs-audio-button").hide();
+            adjustDockSize(-1);
+        } else if ((! hide) && previous) {
+            ui.container.find("#togetherjs-audio-button").show();
+            adjustDockSize(1);
+        }
     });
 
   };
@@ -425,7 +427,8 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
     }
 
     $("#togetherjs-share-button").click(function () {
-      windowing.toggle("#togetherjs-share");
+      // windowing.toggle("#togetherjs-share");
+      $("#togetherjs-share-button").hide();
     });
 
     $("#togetherjs-profile-button").click(function (event) {
@@ -602,7 +605,6 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
         container.find("#togetherjs-invite").hide();
       }
     });
-
     container.find("#togetherjs-menu-refresh-invite").click(refreshInvite);
     container.find("#togetherjs-menu-invite-anyone").click(function () {
       invite(null);
@@ -999,6 +1001,7 @@ define(["require", "jquery", "util", "session", "templates", "templating", "link
       var container = ui.container.find("#togetherjs-chat-messages");
       assert(container.length);
       var popup = ui.container.find("#togetherjs-chat-notifier");
+      console.warn("this should work here right? or wrong?");
       container.append(el);
       ui.chat.scroll();
       var doNotify = !! notify;

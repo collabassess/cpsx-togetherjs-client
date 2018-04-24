@@ -1,9 +1,0 @@
-node_modules
-/togetherjs
-deverserver.js
-Gruntfile.js
-package.json
-package-lock.json
-Procfile
-client
-phantomjs

@@ -1626,7 +1626,7 @@ var requirejs, require, define;
 
             /**
              * Executes a module callback function. Broken out as a separate function
-             * solely to allow the build2 system to sequence the files in the built
+             * solely to allow the build system to sequence the files in the built
              * layer in the right sequence.
              *
              * @private
@@ -1887,7 +1887,7 @@ var requirejs, require, define;
                 //In a web worker, use importScripts. This is not a very
                 //efficient use of importScripts, importScripts will block until
                 //its script is downloaded and evaluated. However, if web workers
-                //are in play, the expectation that a build2 has been done so that
+                //are in play, the expectation that a build has been done so that
                 //only one script needs to be loaded anyway. This may need to be
                 //reevaluated if other use cases become common.
                 importScripts(url);
