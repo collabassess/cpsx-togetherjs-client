@@ -5875,12 +5875,14 @@ And must call:
 
                     return;
                 }
-                if (! attrs.sameUrl && session.UrlChangeHandler){
+                if (!attrs.sameUrl){
                     //don't bother showing a url changed notification, if partners are already on different urls
-                    session.UrlChangeHandler = false;
-                    return;
+                    if(session.UrlChangeHandler){
+                        session.UrlChangeHandler = false;
+                    }else {
+                        return;
+                    }
                 }
-
                 ui.chat.add(el, messageId, notify);
             },
 
