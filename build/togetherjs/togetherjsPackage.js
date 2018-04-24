@@ -5880,6 +5880,7 @@ And must call:
                     //don't bother showing a url changed notification, if partners are already on different urls
                     if(session.UrlChangeHandler){
                         session.UrlChangeHandler = false;
+                        session.UrlChangeHandlerPopup = true;
                     }else {
                         return;
                     }
