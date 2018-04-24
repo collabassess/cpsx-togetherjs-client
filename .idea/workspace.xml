@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/build/togetherjs/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/session.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +61,8 @@
       <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/session.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="354">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,8 +73,8 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="5934" column="37" lean-forward="true" selection-start-line="5934" selection-start-column="37" selection-end-line="5934" selection-end-column="37" />
+            <state relative-caret-position="173">
+              <caret line="5870" column="57" selection-start-line="5870" selection-start-column="57" selection-end-line="5870" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -298,12 +299,12 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="13759000" />
+      <workItem from="1524520121423" duration="14051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23351000" />
+    <option name="totallyTimeSpent" value="23643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/session.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="354">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -800,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="5934" column="37" lean-forward="true" selection-start-line="5934" selection-start-column="37" selection-end-line="5934" selection-end-column="37" />
+        <state relative-caret-position="173">
+          <caret line="5870" column="57" selection-start-line="5870" selection-start-column="57" selection-end-line="5870" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
