@@ -5868,7 +5868,6 @@ And must call:
                 var notify = ! attrs.sameUrl;
                 if(attrs.sameUrl){
                     session.UrlChangeHandler = true;
-                    session.UrlChangeHandlerPopup = true;
                 }
                 if (attrs.sameUrl && ! $("#" + realId).length) {
                     // Don't bother showing a same-url notification, if no previous notification
@@ -5880,7 +5879,6 @@ And must call:
                     //don't bother showing a url changed notification, if partners are already on different urls
                     if(session.UrlChangeHandler){
                         session.UrlChangeHandler = false;
-                        session.UrlChangeHandlerPopup = false;
                     }else {
                         return;
                     }
@@ -5931,12 +5929,7 @@ And must call:
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
                 }
-                if(session.UrlChangeHandlerPopup){
-                    doNotify = true;
-                    session.UrlChangeHandlerPopup = false;
-                }else{
-                    doNotify = false;
-                }
+
                 //dont pop up for page change
                 if (container.is(":visible")) {
                     doNotify = false;
