@@ -5870,10 +5870,12 @@ And must call:
                     // had been shown
                     return;
                 }
-                console.log(el);
-                console.log(messageId);
-                console.log(notify);
-                // ui.chat.add(el, messageId, notify);
+                if (! attrs.sameUrl && !(! $("#" + realId).length)){
+                    //don't bother showing a url changed notification, if partners are already on different urls
+
+                    return;
+                }
+                ui.chat.add(el, messageId, notify);
             },
 
             invite: function (attrs) {
