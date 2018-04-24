@@ -98,23 +98,22 @@
             <img class="togetherjs-person togetherjs-person-small" src="http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png">
             <span class="tj-name togetherjs-person-name">Useronewith alongname</span>
             <span class="tj-status">&#9679;</span>
-            <p class="tj-urllocation">Currently at: <a class="togetherjs-person-url togetherjs-person-url-title" href="">http://www.location.comwww.location.comwww.location.comasdfsafd</a></p>
+            <p class="tj-urllocation togetherjs-buttons">Currently at: <a class="togetherjs-person-url togetherjs-person-url-title" href="">http://www.location.comwww.location.comwww.location.comasdfsafd</a>
+                    <!-- Displayed when the peer is at a different URL: -->
+                    <div class="togetherjs-different-url">
+                        <!--<a class="togetherjs-nudge togetherjs-default tj-btn-sm">Nudge them</a>-->
+                        <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm">Join them</a>
+                    </div>
+                    <!-- Displayed when the peer is at your same URL: -->
+                    <div class="togetherjs-same-url" style="display: none">
+                        <span class="togetherjs-person-name"></span> is on the same page as you.
+                    </div>
+            </p>
             <p class="tj-follow">Follow:
               <label class="togetherjs-follow-question" for="togetherjs-person-status-follow">
                 <input type="checkbox" id="togetherjs-person-status-follow">
               </label>
             </p>
-            <section class="togetherjs-buttons">
-              <!-- Displayed when the peer is at a different URL: -->
-              <div class="togetherjs-different-url">
-                <a class="togetherjs-nudge togetherjs-default tj-btn-sm">Nudge them</a>
-                <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm">Join them</a>
-              </div>
-              <!-- Displayed when the peer is at your same URL: -->
-              <div class="togetherjs-same-url" style="display: none">
-                <span class="togetherjs-person-name"></span> is on the same page as you.
-              </div>
-            </section>
           </li>
         </ul>
     </section>
@@ -125,8 +124,17 @@
     <header><div class="togetherjs-person togetherjs-person-small"></div><span class="togetherjs-person-name"></span></header>
 
     <section class="togetherjs-participant-window-main">
-    <p class="togetherjs-participant-window-row"><strong>Currently at:</strong>
+    <p class="togetherjs-participant-window-row togetherjs-buttons"><strong>Currently at:</strong>
         <a class="togetherjs-person-url togetherjs-person-url-title"></a>
+        <!-- Displayed when the peer is at a different URL: -->
+        <div class="togetherjs-different-url">
+            <a class="togetherjs-nudge togetherjs-default">Nudge them</a>
+            <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary">Join them</a>
+        </div>
+        <!-- Displayed when the peer is at your same URL: -->
+        <div class="togetherjs-same-url" style="display: none">
+            <span class="togetherjs-person-name"></span> is on the same page as you.
+        </div>
       </p>
 
       <p class="togetherjs-participant-window-row"><strong>Status:</strong>
@@ -142,17 +150,9 @@
 
     </section>
 
-    <section class="togetherjs-buttons">
-      <!-- Displayed when the peer is at a different URL: -->
-      <div class="togetherjs-different-url">
-        <a class="togetherjs-nudge togetherjs-default">Nudge them</a>
-        <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary">Join them</a>
-      </div>
-      <!-- Displayed when the peer is at your same URL: -->
-      <div class="togetherjs-same-url" style="display: none">
-        <span class="togetherjs-person-name"></span> is on the same page as you.
-      </div>
-    </section>
+    <!--<section class="">-->
+      <!---->
+    <!--</section>-->
   </div>
 
   <!-- The chat screen: -->

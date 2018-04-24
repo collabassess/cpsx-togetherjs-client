@@ -2234,7 +2234,7 @@ And must call:
                 "\n" +
                 "  <!-- This is the main set of buttons: -->\n" +
                 "  <div id=\"togetherjs-dock\" class=\"togetherjs-dock-right\">\n" +
-                "    <div id=\"togetherjs-dock-anchor\" title=\"{{ gettext('Move the dock') }}\">\n" +
+                "    <div id=\"togetherjs-dock-anchor\" title=\"Move the dock\">\n" +
                 "      <span id=\"togetherjs-dock-anchor-horizontal\">\n" +
                 "        <img src=\"http://localhost:8080/togetherjs/images/icn-handle-circle@2x.png\" alt=\"drag\">\n" +
                 "      </span>\n" +
@@ -2252,12 +2252,10 @@ And must call:
                 "          <div class=\"togetherjs-person togetherjs-person-status-overlay\"></div>\n" +
                 "        </button>\n" +
                 "      </div>\n" +
-                "      <button id=\"togetherjs-profile-button\" class=\"togetherjs-button\" title=\"{{ gettext('This is you') }}\">\n" +
+                "      <button id=\"togetherjs-profile-button\" class=\"togetherjs-button\" title=\"This is you\">\n" +
                 "        <div class=\"togetherjs-person togetherjs-person-self\"></div>\n" +
                 "        <div id=\"togetherjs-profile-arrow\"></div>\n" +
-                "      </button>\n" +
-                "      <!--<button id=\"togetherjs-share-button\" class=\"togetherjs-button\" title=\"{{ gettext('Add a friend') }}\"></button>-->\n" +
-                "      <button id=\"togetherjs-audio-button\" class=\"togetherjs-button\" title=\"{{ gettext('Turn on microphone')}}\">\n" +
+                "        <button id=\"togetherjs-audio-button\" class=\"togetherjs-button\" title=\"Turn on microphone\">\n" +
                 "        <span id=\"togetherjs-audio-unavailable\" class=\"togetherjs-audio-set\" data-toggles=\".togetherjs-audio-set\">\n" +
                 "        </span>\n" +
                 "        <span id=\"togetherjs-audio-ready\" class=\"togetherjs-audio-set\" data-toggles=\".togetherjs-audio-set\" style=\"display: none\">\n" +
@@ -2273,7 +2271,7 @@ And must call:
                 "        <span id=\"togetherjs-audio-error\" class=\"togetherjs-audio-set\" data-toggles=\".togetherjs-audio-set\" style=\"display: none\">\n" +
                 "        </span>\n" +
                 "      </button>\n" +
-                "      <button id=\"togetherjs-chat-button\" class=\"togetherjs-button\" title=\"{{ gettext('Chat') }}\"></button>\n" +
+                "      <button id=\"togetherjs-chat-button\" class=\"togetherjs-button\" title=\"Chat\"></button>\n" +
                 "      <div id=\"togetherjs-dock-participants\"></div>\n" +
                 "    </div>\n" +
                 "  </div>\n" +
@@ -2281,7 +2279,7 @@ And must call:
                 "  <!-- The window for editing the avatar: -->\n" +
                 "  <div id=\"togetherjs-avatar-edit\" class=\"togetherjs-modal\"\n" +
                 "       style=\"display: none\">\n" +
-                "    <header> {{ gettext('Update avatar') }} </header>\n" +
+                "    <header> Update avatar </header>\n" +
                 "    <section>\n" +
                 "      <div class=\"togetherjs-avatar-preview togetherjs-person togetherjs-person-self\"></div>\n" +
                 "      <div id=\"togetherjs-avatar-buttons\">\n" +
@@ -2291,23 +2289,23 @@ And must call:
                 "      </div>\n" +
                 "    </section>\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-cancel togetherjs-dismiss\">{{ gettext('Cancel') }}</button>\n" +
-                "      <span class=\"togetherjs-alt-text\">{{ gettext('or') }}</span>\n" +
-                "      <button class=\"togetherjs-avatar-save togetherjs-primary\">{{ gettext('Save') }}</button>\n" +
+                "      <button class=\"togetherjs-cancel togetherjs-dismiss\">Cancel</button>\n" +
+                "      <span class=\"togetherjs-alt-text\">or</span>\n" +
+                "      <button class=\"togetherjs-avatar-save togetherjs-primary\">Save</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- The window for sharing the link: -->\n" +
                 "  <div id=\"togetherjs-share\" class=\"togetherjs-window\"\n" +
                 "       data-bind-to=\"#togetherjs-share-button\" style=\"display: none\">\n" +
-                "    <header> {{ gettext('Invite a friend') }} </header>\n" +
+                "    <header> Invite a friend </header>\n" +
                 "    <section>\n" +
                 "      <div class=\"togetherjs-not-mobile\">\n" +
-                "        <p>{{ gettext('Copy and paste this link over IM or email:') }}</p>\n" +
+                "        <p>Copy and paste this link over IM or email:</p>\n" +
                 "        <input type=\"text\" class=\"togetherjs-share-link\">\n" +
                 "      </div>\n" +
                 "      <div class=\"togetherjs-only-mobile\">\n" +
-                "        <p>{{ gettext('Copy and paste this link over IM or email:') }}</p>\n" +
+                "        <p>Copy and paste this link over IM or email:</p>\n" +
                 "        <input type=\"text\" class=\"togetherjs-share-link\">\n" +
                 "        <!-- <a class=\"togetherjs-share-link\" href=\"#\">Press your thumb here.</a> -->\n" +
                 "      </div>\n" +
@@ -2317,31 +2315,30 @@ And must call:
                 "  <!-- Participant Full List view template: -->\n" +
                 "  <div id=\"togetherjs-participantlist\" class=\"togetherjs-window\"\n" +
                 "       data-bind-to=\"#togetherjs-participantlist-button\" style=\"display: none\">\n" +
-                "    <header> {{ gettext('Participants') }} </header>\n" +
+                "    <header> Participants </header>\n" +
                 "    <section>\n" +
                 "      <div class=\"togetherjs-not-mobile\">\n" +
                 "        <ul>\n" +
                 "          <li id=\"togetherjs-participant-item\">\n" +
                 "            <img class=\"togetherjs-person togetherjs-person-small\" src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\">\n" +
-                "            <span class=\"tj-name togetherjs-person-name\">NAME</span>\n" +
+                "            <span class=\"tj-name togetherjs-person-name\">Useronewith alongname</span>\n" +
                 "            <span class=\"tj-status\">&#9679;</span>\n" +
-                "            <p class=\"tj-urllocation togetherjs-buttons\">{{ gettext('Currently at:') }} <a class=\"togetherjs-person-url togetherjs-person-url-title\" href=\"\">http://www.location.comwww.location.comwww.location.comasdfsafd</a>\n" +
-                "                <!-- Displayed when the peer is at a different URL: -->\n" +
-                "                <div class=\"togetherjs-different-url\">\n" +
-                "                  <!--<a class=\"togetherjs-nudge togetherjs-default tj-btn-sm\">{{ gettext('Nudge them') }}</a>-->\n" +
-                "                  <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm\">{{ gettext('Join them') }}</a>\n" +
-                "                </div>\n" +
-                "                <!-- Displayed when the peer is at your same URL: -->\n" +
-                "                <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
-                "                  <span class=\"togetherjs-person-name\"></span> {{ gettext('is on the same page as you.')}}\n" +
-                "                </div>\n" +
+                "            <p class=\"tj-urllocation togetherjs-buttons\">Currently at: <a class=\"togetherjs-person-url togetherjs-person-url-title\" href=\"\">http://www.location.comwww.location.comwww.location.comasdfsafd</a>\n" +
+                "                    <!-- Displayed when the peer is at a different URL: -->\n" +
+                "                    <div class=\"togetherjs-different-url\">\n" +
+                "                        <!--<a class=\"togetherjs-nudge togetherjs-default tj-btn-sm\">Nudge them</a>-->\n" +
+                "                        <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm\">Join them</a>\n" +
+                "                    </div>\n" +
+                "                    <!-- Displayed when the peer is at your same URL: -->\n" +
+                "                    <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
+                "                        <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
+                "                    </div>\n" +
                 "            </p>\n" +
-                "            <p class=\"tj-follow\">{{ gettext('Follow:') }}\n" +
+                "            <p class=\"tj-follow\">Follow:\n" +
                 "              <label class=\"togetherjs-follow-question\" for=\"togetherjs-person-status-follow\">\n" +
                 "                <input type=\"checkbox\" id=\"togetherjs-person-status-follow\">\n" +
                 "              </label>\n" +
                 "            </p>\n" +
-                "\n" +
                 "          </li>\n" +
                 "        </ul>\n" +
                 "    </section>\n" +
@@ -2352,27 +2349,24 @@ And must call:
                 "    <header><div class=\"togetherjs-person togetherjs-person-small\"></div><span class=\"togetherjs-person-name\"></span></header>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-participant-window-main\">\n" +
-                "      <p class=\"togetherjs-participant-window-row\"><strong>{{ gettext('Role:') }}</strong>\n" +
-                "        <span class=\"togetherjs-person-role\"></span>\n" +
-                "      </p>\n" +
-                "\n" +
-                "      <p class=\"togetherjs-participant-window-row togetherjs-buttons\"><strong>{{ gettext('Currently at:') }}</strong>\n" +
+                "    <p class=\"togetherjs-participant-window-row togetherjs-buttons\"><strong>Currently at:</strong>\n" +
                 "        <a class=\"togetherjs-person-url togetherjs-person-url-title\"></a>\n" +
+                "        <!-- Displayed when the peer is at a different URL: -->\n" +
                 "        <div class=\"togetherjs-different-url\">\n" +
-                "          <!--<a class=\"togetherjs-nudge togetherjs-default tj-btn-sm\">{{ gettext('Nudge them') }}</a>-->\n" +
-                "          <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm\">{{ gettext('Join them') }}</a>\n" +
+                "            <a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>\n" +
+                "            <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
                 "        </div>\n" +
                 "        <!-- Displayed when the peer is at your same URL: -->\n" +
                 "        <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
-                "          <span class=\"togetherjs-person-name\"></span> {{ gettext('is on the same page as you.')}}\n" +
+                "            <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
                 "        </div>\n" +
                 "      </p>\n" +
                 "\n" +
-                "      <p class=\"togetherjs-participant-window-row\"><strong>{{ gettext('Status:') }}</strong>\n" +
+                "      <p class=\"togetherjs-participant-window-row\"><strong>Status:</strong>\n" +
                 "        <span class=\"togetherjs-person-status\"></span>\n" +
                 "      </p>\n" +
                 "\n" +
-                "      <p class=\"togetherjs-participant-window-row\"><strong class=\"togetherjs-float-left\">{{ gettext('Follow this participant:') }}</strong>\n" +
+                "      <p class=\"togetherjs-participant-window-row\"><strong class=\"togetherjs-float-left\">Follow this participant:</strong>\n" +
                 "        <label class=\"togetherjs-follow-question togetherjs-float-left\" for=\"togetherjs-person-status-follow\">\n" +
                 "          <input type=\"checkbox\" id=\"togetherjs-person-status-follow\">\n" +
                 "        </label>\n" +
@@ -2381,30 +2375,22 @@ And must call:
                 "\n" +
                 "    </section>\n" +
                 "\n" +
-                "    <!--<section class=\"togetherjs-buttons\">-->\n" +
-                "      <!--&lt;!&ndash; Displayed when the peer is at a different URL: &ndash;&gt;-->\n" +
-                "      <!--<div class=\"togetherjs-different-url\">-->\n" +
-                "        <!--&lt;!&ndash;<a class=\"togetherjs-nudge togetherjs-default\">{{ gettext('Nudge them') }}</a>&ndash;&gt;-->\n" +
-                "        <!--<a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">{{ gettext('Join them') }}</a>-->\n" +
-                "      <!--</div>-->\n" +
-                "      <!--&lt;!&ndash; Displayed when the peer is at your same URL: &ndash;&gt;-->\n" +
-                "      <!--<div class=\"togetherjs-same-url\" style=\"display: none\">-->\n" +
-                "        <!--<span class=\"togetherjs-person-name\"></span> {{ gettext('is on the same page as you.') }}-->\n" +
-                "      <!--</div>-->\n" +
+                "    <!--<section class=\"\">-->\n" +
+                "      <!---->\n" +
                 "    <!--</section>-->\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- The chat screen: -->\n" +
                 "  <div id=\"togetherjs-chat\" class=\"togetherjs-window\" data-bind-to=\"#togetherjs-chat-button\"\n" +
                 "       style=\"display: none\">\n" +
-                "    <header> {{ gettext('Chat') }} </header>\n" +
+                "    <header> Chat </header>\n" +
                 "    <section class=\"togetherjs-subtitle\">\n" +
                 "      <div id=\"togetherjs-chat-participants\" data-toggles=\"#togetherjs-chat-no-participants\" style=\"display: none\">\n" +
                 "        <span id=\"togetherjs-chat-participant-list\"></span>\n" +
-                "        &amp; {{ gettext('You') }}\n" +
+                "        &amp; You\n" +
                 "      </div>\n" +
                 "      <div id=\"togetherjs-chat-no-participants\" data-toggles=\"#togetherjs-chat-participants\">\n" +
-                "        {{ gettext('No one else is here.') }}\n" +
+                "        No one else is here.\n" +
                 "      </div>\n" +
                 "    </section>\n" +
                 "\n" +
@@ -2422,10 +2408,10 @@ And must call:
                 "      <div id=\"togetherjs-template-chat-left\" class=\"togetherjs-chat-item togetherjs-chat-left-item\">\n" +
                 "        <div class=\"togetherjs-person\"></div>\n" +
                 "        <div class=\"togetherjs-ifnot-declinedJoin\">\n" +
-                "          <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> {{ gettext('left the session.') }}</div>\n" +
+                "          <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> left the session.</div>\n" +
                 "        </div>\n" +
                 "        <div class=\"togetherjs-if-declinedJoin\">\n" +
-                "          <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> {{ gettext('declined to join the session.')}}</div>\n" +
+                "          <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> declined to join the session.</div>\n" +
                 "        </div>\n" +
                 "        <div class=\"togetherjs-clear\"></div>\n" +
                 "      </div>\n" +
@@ -2433,7 +2419,7 @@ And must call:
                 "      <!-- Template when a person joins the session: -->\n" +
                 "      <div id=\"togetherjs-template-chat-joined\" class=\"togetherjs-chat-item togetherjs-chat-join-item\">\n" +
                 "        <div class=\"togetherjs-person\"></div>\n" +
-                "        <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> {{ gettext('joined the session.') }}</div>\n" +
+                "        <div class=\"togetherjs-inline-text\"><span class=\"togetherjs-person-name\"></span> joined the session.</div>\n" +
                 "        <div class=\"togetherjs-clear\"></div>\n" +
                 "      </div>\n" +
                 "\n" +
@@ -2455,16 +2441,16 @@ And must call:
                 "        <div class=\"togetherjs-inline-text\">\n" +
                 "          <div class=\"togetherjs-if-sameUrl\">\n" +
                 "            <span class=\"togetherjs-person-name\"></span>\n" +
-                "            {{ gettext('is on the same page as you.') }}\n" +
+                "            is on the same page as you.\n" +
                 "          </div>\n" +
                 "          <div class=\"togetherjs-ifnot-sameUrl\">\n" +
                 "            <span class=\"togetherjs-person-name\"></span>\n" +
-                "            {{ gettext('has gone to:') }} <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>\n" +
+                "            has gone to: <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>\n" +
                 "            <section class=\"togetherjs-buttons togetherjs-buttons-notification-diff-url\">\n" +
                 "              <!-- Displayed when the peer is at a different URL: -->\n" +
                 "              <div class=\"togetherjs-different-url togetherjs-notification-diff-url\">\n" +
-                "                <a class=\"togetherjs-nudge togetherjs-default\">{{ gettext('Nudge them') }}</a>\n" +
-                "                <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">{{ gettext('Join them') }}</a>\n" +
+                "                <a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>\n" +
+                "                <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
                 "              </div>\n" +
                 "            </section>\n" +
                 "\n" +
@@ -2483,7 +2469,7 @@ And must call:
                 "      <!-- FIX ME// need to have some dialogue that says something like - There are no chats yet! -->\n" +
                 "    </section>\n" +
                 "    <section id=\"togetherjs-chat-input-box\">\n" +
-                "      <textarea id=\"togetherjs-chat-input\" placeholder=\"{{ gettext('Type your message here') }}\"></textarea>\n" +
+                "      <textarea id=\"togetherjs-chat-input\" placeholder=\"Type your message here\"></textarea>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
@@ -2492,25 +2478,25 @@ And must call:
                 "       data-bind-to=\"#togetherjs-audio-button\"\n" +
                 "       style=\"display: none\">\n" +
                 "\n" +
-                "    <header> {{ gettext('Audio Chat') }} </header>\n" +
+                "    <header> Audio Chat </header>\n" +
                 "    <section>\n" +
                 "      <p>\n" +
-                "        {{ gettext('Activate your <strong>browser microphone</strong> near your URL bar above.') }}\n" +
+                "        Activate your <strong>browser microphone</strong> near your URL bar above.\n" +
                 "      </p>\n" +
                 "      <p>\n" +
-                "        {{ gettext('Talking on your microphone through your web browser is an experimental feature.') }}\n" +
+                "        Talking on your microphone through your web browser is an experimental feature.\n" +
                 "      </p>\n" +
                 "      <p>\n" +
-                "        {{ gettext('Read more about Audio Chat') }} <a href=\"https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\" target=\"_blank\">{{ gettext('here') }}</a>.\n" +
+                "        Read more about Audio Chat <a href=\"https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\" target=\"_blank\">here</a>.\n" +
                 "      </p>\n" +
                 "    </section>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
                 "      <label for=\"togetherjs-rtc-info-dismiss\" style=\"display: inline;\">\n" +
                 "        <input class=\"togetherjs-dont-show-again\" id=\"togetherjs-rtc-info-dismiss\" type=\"checkbox\">\n" +
-                "        {{ gettext('Don\\'t show again.') }}\n" +
+                "        Don't show again.\n" +
                 "      </label>\n" +
-                "      <button class=\"togetherjs-default togetherjs-dismiss\" type=\"button\">{{ gettext('Close') }}</button>\n" +
+                "      <button class=\"togetherjs-default togetherjs-dismiss\" type=\"button\">Close</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
@@ -2519,21 +2505,27 @@ And must call:
                 "  <div id=\"togetherjs-rtc-not-supported\" class=\"togetherjs-window\"\n" +
                 "       data-bind-to=\"#togetherjs-audio-button\"\n" +
                 "       style=\"display: none\">\n" +
-                "    <header> {{ gettext('Audio Chat') }} </header>\n" +
+                "    <header> Audio Chat </header>\n" +
                 "\n" +
                 "    <section>\n" +
-                "      <p>{{ gettext('Audio chat requires you to use a <a href=\\'https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\\' target=\\'_blank\\'>newer browser</a>!') }}</p>\n" +
+                "      <p>Audio chat requires you to use a <a href=\"https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\" target=\"_blank\">\n" +
+                "        newer browser\n" +
+                "      </a>!</p>\n" +
                 "      <p>\n" +
-                "        {{ gettext('Live audio chat requires a newer (or different) browser than you\\'re using.') }}\n" +
+                "        Live audio chat requires a newer (or different) browser than you're using.\n" +
                 "      </p>\n" +
                 "      <p>\n" +
-                "        {{ gettext('See <a href=\\'https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\\' target=\\'_blank\\'>this page</a>for more information and a list of supported browsers.') }}\n" +
+                "        See\n" +
+                "        <a href=\"https://github.com/mozilla/togetherjs/wiki/About-Audio-Chat-and-WebRTC\" target=\"_blank\">\n" +
+                "          this page\n" +
+                "        </a>\n" +
+                "        for more information and a list of supported browsers.\n" +
                 "      </p>\n" +
                 "    </section>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
                 "      <div class=\"togetherjs-rtc-dialog-btn\">\n" +
-                "        <button class=\"togetherjs-default togetherjs-dismiss\" type=\"button\">{{ gettext('Close') }}</button>\n" +
+                "        <button class=\"togetherjs-default togetherjs-dismiss\" type=\"button\">Close</button>\n" +
                 "      </div>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
@@ -2552,24 +2544,22 @@ And must call:
                 "  <div id=\"togetherjs-menu\" class=\"togetherjs-menu\" style=\"display: none\">\n" +
                 "    <div class=\"togetherjs-menu-item togetherjs-menu-disabled\" id=\"togetherjs-menu-profile\">\n" +
                 "      <img id=\"togetherjs-menu-avatar\">\n" +
-                "      <span class=\"togetherjs-person-name-self\" id=\"togetherjs-self-name-display\" data-toggles=\"#togetherjs-menu .togetherjs-self-name\">[nickname]</span>\n" +
-                "      <input class=\"togetherjs-self-name\" type=\"text\" data-toggles=\"#togetherjs-self-name-display\" style=\"display: none\" placeholder=\"{{ gettext(\"Enter your name\") }}\">\n" +
+                "      <span class=\"togetherjs-person-name-self\" id=\"togetherjs-self-name-display\" data-toggles=\"#togetherjs-menu .togetherjs-self-name\"></span>\n" +
+                "      <input class=\"togetherjs-self-name\" type=\"text\" data-toggles=\"#togetherjs-self-name-display\" style=\"display: none\" placeholder=\"Enter your name\">\n" +
                 "    </div>\n" +
                 "    <div class=\"togetherjs-menu-hr-avatar\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-name\"><img src=\"http://localhost:8080/togetherjs/images/button-pencil.png\" alt=\"\"> {{ gettext('Update your name') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-avatar\"><img src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\" alt=\"\"> {{ gettext('Change avatar') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-color\"><span class=\"togetherjs-person-bgcolor-self\"></span> {{ gettext('Pick profile color') }}</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-name\"><img src=\"http://localhost:8080/togetherjs/images/button-pencil.png\" alt=\"\"> Update your name</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-avatar\"><img src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\" alt=\"\"> Change avatar</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-color\"><span class=\"togetherjs-person-bgcolor-self\"></span> Pick profile color</div>\n" +
                 "    <div class=\"togetherjs-hr\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-help\">{{ gettext('Help') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-feedback\">{{ gettext('Feedback') }}</div>\n" +
                 "    <div id=\"togetherjs-invite\" style=\"display: none\">\n" +
                 "      <div class=\"togetherjs-hr\"></div>\n" +
                 "      <div id=\"togetherjs-invite-users\"></div>\n" +
-                "      <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-refresh-invite\">{{ gettext('Refresh users') }}</div>\n" +
-                "      <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-invite-anyone\">{{ gettext('Invite anyone') }}</div>\n" +
+                "      <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-refresh-invite\">Refresh users</div>\n" +
+                "      <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-invite-anyone\">Invite anyone</div>\n" +
                 "    </div>\n" +
                 "    <div class=\"togetherjs-hr\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-end\"><img src=\"http://localhost:8080/togetherjs/images/button-end-session.png\" alt=\"\"> {{ gettext('End') }} <span class=\"togetherjs-tool-name\">{{ gettext('TogetherJS') }}</span></div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-end\"><img src=\"http://localhost:8080/togetherjs/images/button-end-session.png\" alt=\"\"> End <span class=\"togetherjs-tool-name\">TogetherJS</span></div>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- template for one person in the invite-users list -->\n" +
@@ -2582,37 +2572,37 @@ And must call:
                 "\n" +
                 "  <!-- A window version of #togetherjs-menu, for use on mobile -->\n" +
                 "  <div id=\"togetherjs-menu-window\" class=\"togetherjs-window\" style=\"display: none\">\n" +
-                "    <header>{{ gettext('Settings and Profile') }}</header>\n" +
+                "    <header>Settings and Profile</header>\n" +
                 "    <section>\n" +
                 "    <div class=\"togetherjs-menu-item\">\n" +
                 "      <img class=\"togetherjs-menu-avatar\">\n" +
                 "      <span class=\"togetherjs-person-name-self\" id=\"togetherjs-self-name-display\"></span>\n" +
                 "    </div>\n" +
                 "    <div class=\"togetherjs-menu-hr-avatar\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-name-button\"><img src=\"http://localhost:8080/togetherjs/images/button-pencil.png\" alt=\"\"> {{ gettext('Update your name') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-avatar-button\"><img src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\" alt=\"\"> {{ gettext('Change avatar') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-color-button\"><span class=\"togetherjs-person-bgcolor-self\"></span> {{ gettext('Pick profile color') }}</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-name-button\"><img src=\"http://localhost:8080/togetherjs/images/button-pencil.png\" alt=\"\"> Update your name</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-avatar-button\"><img src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\" alt=\"\"> Change avatar</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-update-color-button\"><span class=\"togetherjs-person-bgcolor-self\"></span> Pick profile color</div>\n" +
                 "    <div class=\"togetherjs-hr\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-help-button\">{{ gettext('Help') }}</div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-feedback-button\">{{ gettext('Feedback') }}</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-help-button\">Help</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-feedback-button\">Feedback</div>\n" +
                 "    <div class=\"togetherjs-hr\"></div>\n" +
-                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-end-button\"><img src=\"http://localhost:8080/togetherjs/images/button-end-session.png\" alt=\"\"> {{ gettext('End TOOL_NAME') }}</div>\n" +
+                "    <div class=\"togetherjs-menu-item\" id=\"togetherjs-menu-end-button\"><img src=\"http://localhost:8080/togetherjs/images/button-end-session.png\" alt=\"\"> End <span class=\"togetherjs-tool-name\">TogetherJS</span></div>\n" +
                 "    </section>\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-dismiss togetherjs-primary\">{{ gettext('OK') }}</button>\n" +
+                "      <button class=\"togetherjs-dismiss togetherjs-primary\">OK</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- The name editor, for use on mobile -->\n" +
                 "  <div id=\"togetherjs-edit-name-window\" class=\"togetherjs-window\" style=\"display: none\">\n" +
-                "    <header>{{ gettext('Update Name') }}</header>\n" +
+                "    <header>Update Name</header>\n" +
                 "    <section>\n" +
                 "      <div>\n" +
-                "        <input class=\"togetherjs-self-name\" type=\"text\" placeholder=\"{{ gettext('Enter your name') }}\">\n" +
+                "        <input class=\"togetherjs-self-name\" type=\"text\" placeholder=\"Enter your name\">\n" +
                 "      </div>\n" +
                 "    </section>\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-dismiss togetherjs-primary\">{{ gettext('OK') }}</button>\n" +
+                "      <button class=\"togetherjs-dismiss togetherjs-primary\">OK</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
@@ -2631,89 +2621,96 @@ And must call:
                 "\n" +
                 "  <!-- The intro screen for someone who joins a session the first time: -->\n" +
                 "  <div id=\"togetherjs-intro\" class=\"togetherjs-modal\" style=\"display: none\">\n" +
-                "    <header>{{ gettext('Join TOOL_NAME session?') }}</header>\n" +
+                "    <header>Join <span class=\"togetherjs-tool-name\">TogetherJS</span> session?</header>\n" +
                 "    <section>\n" +
-                "      <p>{{ gettext(\"Your friend has asked you to join their TOOL_SITE_LINK browser session to collaborate in real-time!\")}}</p>\n" +
-                "      <p>{{ gettext(\"Would you like to join their session?\") }}</p>\n" +
+                "      <p>Your friend has asked you to join their <a href=\"https://togetherjs.mozillalabs.com/\" target=\"_blank\"><span class=\"togetherjs-tool-name\">TogetherJS</span></a> browser session to collaborate in real-time!</p>\n" +
+                "\n" +
+                "      <p>Would you like to join their session?</p>\n" +
                 "    </section>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-destructive togetherjs-modal-dont-join\">{{ gettext( \"No, don't join\" ) }}</button>\n" +
-                "      <button class=\"togetherjs-primary togetherjs-dismiss\">{{ gettext( \"Yes, join session\" ) }}</button>\n" +
+                "      <button class=\"togetherjs-destructive togetherjs-modal-dont-join\">No, don't join</button>\n" +
+                "      <button class=\"togetherjs-primary togetherjs-dismiss\">Yes, join session</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- Shown when a web browser is completely incapable of running TogetherJS: -->\n" +
                 "  <div id=\"togetherjs-browser-broken\" class=\"togetherjs-modal\" style=\"display: none\">\n" +
-                "    <header> {{ gettext('Sorry') }} </header>\n" +
+                "    <header> Sorry </header>\n" +
                 "\n" +
                 "    <section>\n" +
                 "      <p>\n" +
-                "        {{ gettext(\"We're sorry, TOOL_NAME doesn't work with this browser.  Please <a href='https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#supported-browsers'>upgrade to a supported browser</a> to try TOOL_NAME.\" ) }}\n" +
+                "        We're sorry, <span class=\"togetherjs-tool-name\">TogetherJS</span> doesn't work with this browser.  Please\n" +
+                "        <a href=\"https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#supported-browsers\">upgrade\n" +
+                "          to a supported browser</a> to try <span class=\"togetherjs-tool-name\">TogetherJS</span>.\n" +
                 "      </p>\n" +
                 "\n" +
                 "      <p id=\"togetherjs-browser-broken-is-ie\" style=\"display: none\">\n" +
-                "        {{ gettext('We need your help fixing TogetherJS on Internet Explorer!  Here are a list of IE <a href=\\\"https://github.com/mozilla/togetherjs/issues?labels=IE&milestone=&page=1&state=open\\\" target=\\\"_blank\\\">GitHub issues</a> we need fixed that you can work on.') }}\n" +
-                "        {{ gettext(\"Internet Explorer <a href=\\\"https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#internet-explorer\\\">is currently not supported</a>.  If you do want to try out TogetherJS, we'd suggest using Firefox or Chrome.\") }}\n" +
+                "        We need your help fixing TogetherJS on Internet Explorer!  Here are a list of IE <a href=\"https://github.com/mozilla/togetherjs/issues?labels=IE&milestone=&page=1&state=open\" target=\"_blank\">GitHub issues</a> we need fixed that you can work on.\n" +
+                "        Internet Explorer <a href=\"https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#internet-explorer\">is\n" +
+                "          currently not supported</a>.  If you do want to try out TogetherJS, we'd suggest using Firefox or Chrome.\n" +
                 "      </p>\n" +
                 "    </section>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-dismiss togetherjs-primary\">{{ gettext('End TOOL_NAME') }}</button>\n" +
+                "      <button class=\"togetherjs-dismiss togetherjs-primary\">End <span class=\"togetherjs-tool-name\">TogetherJS</span></button>\n" +
                 "    </section>\n" +
                 "\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- Shown when the browser has WebSockets, but is IE (i.e., IE10) -->\n" +
                 "  <div id=\"togetherjs-browser-unsupported\" class=\"togetherjs-modal\" style=\"display: none\">\n" +
-                "    <header> {{ gettext('Unsupported Browser') }} </header>\n" +
+                "    <header> Unsupported Browser </header>\n" +
                 "\n" +
                 "    <section>\n" +
                 "      <p>\n" +
-                "        {{ gettext('We need your help fixing TogetherJS on Internet Explorer!  Here are a list of IE <a href=\"https://github.com/mozilla/togetherjs/issues?labels=IE&milestone=&page=1&state=open\" target=\"_blank\">GitHub issues</a> we need fixed that you can work on.') }}\n" +
-                "        {{ gettext(\"Internet Explorer <a href=\\\"https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#internet-explorer\\\">is currently not supported</a>.  If you do want to try out TogetherJS, we'd suggest using Firefox or Chrome.\") }}\n" +
+                "        We need your help fixing TogetherJS on Internet Explorer!  Here are a list of IE <a href=\"https://github.com/mozilla/togetherjs/issues?labels=IE&milestone=&page=1&state=open\" target=\"_blank\">GitHub issues</a> we need fixed that you can work on.\n" +
+                "        Internet Explorer <a href=\"https://github.com/mozilla/togetherjs/wiki/Supported-Browsers#internet-explorer\">is not supported</a>\n" +
+                "        at this time.  While we may add support later, adding support is\n" +
+                "        not currently on our roadmap.  If you do want to try out TogetherJS, we'd suggest using Firefox or Chrome.\n" +
                 "      </p>\n" +
                 "\n" +
-                "      <p>{{ gettext('You can continue to try to use TOOL_NAME, but you are likely to hit lots of bugs.  So be warned.') }}</p>\n" +
+                "      <p>You can continue to try to use <span class=\"togetherjs-tool-name\">TogetherJS</span>, but you are likely to hit\n" +
+                "        lots of bugs.  So be warned.</p>\n" +
                 "\n" +
                 "    </section>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-dismiss togetherjs-primary\">{{ gettext('End TOOL_NAME') }}</button>\n" +
-                "      <button class=\"togetherjs-dismiss togetherjs-secondary togetherjs-browser-unsupported-anyway\">{{ gettext('Try TOOL_NAME Anyway') }}</button>\n" +
+                "      <button class=\"togetherjs-dismiss togetherjs-primary\">End <span class=\"togetherjs-tool-name\">TogetherJS</span></button>\n" +
+                "      <button class=\"togetherjs-dismiss togetherjs-secondary togetherjs-browser-unsupported-anyway\">Try <span class=\"togetherjs-tool-name\">TogetherJS</span> Anyway</button>\n" +
                 "    </section>\n" +
                 "\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <div id=\"togetherjs-confirm-end\" class=\"togetherjs-modal\" style=\"display: none\">\n" +
-                "    <header> {{ gettext('End session?') }} </header>\n" +
+                "    <header> End session? </header>\n" +
                 "    <section>\n" +
                 "      <p>\n" +
-                "        {{ gettext(\"Are you sure you'd like to end your TOOL_NAME session?\") }}\n" +
+                "        Are you sure you'd like to end your <span class=\"togetherjs-tool-name\">TogetherJS</span> session?\n" +
                 "      </p>\n" +
                 "    </section>\n" +
                 "    <section class=\"togetherjs-buttons\">\n" +
-                "      <button class=\"togetherjs-cancel togetherjs-dismiss\">{{ gettext('Cancel') }}</button>\n" +
-                "      <span class=\"togetherjs-alt-text\">{{ gettext('or') }}</span>\n" +
-                "      <button id=\"togetherjs-end-session\" class=\"togetherjs-destructive\">{{ gettext('End session') }}</button>\n" +
+                "      <button class=\"togetherjs-cancel togetherjs-dismiss\">Cancel</button>\n" +
+                "      <span class=\"togetherjs-alt-text\">or</span>\n" +
+                "      <button id=\"togetherjs-end-session\" class=\"togetherjs-destructive\">End session</button>\n" +
                 "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <div id=\"togetherjs-feedback-form\" class=\"togetherjs-modal\" style=\"display: none;\">\n" +
-                "    <header> {{ gettext('Feedback') }} </header>\n" +
-                "    <iframe src=\"https://docs.google.com/a/mozilla.com/forms/d/1lVE7JyRo_tjakN0mLG1Cd9X9vseBX9wci153z9JcNEs/viewform?embedded=true\" width=\"400\" height=\"300\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">{{ gettext('Loading form...') }}</iframe>\n" +
+                "    <header> Feedback </header>\n" +
+                "    <iframe src=\"https://docs.google.com/a/mozilla.com/forms/d/1lVE7JyRo_tjakN0mLG1Cd9X9vseBX9wci153z9JcNEs/viewform?embedded=true\" width=\"400\" height=\"300\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading form...</iframe>\n" +
                 "    <!-- <p><button class=\"togetherjs-modal-close\">Close</button></p> -->\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <div style=\"display: none\">\n" +
                 "    <!-- This is when you join a session and the other person has already changed to another URL: -->\n" +
                 "    <div id=\"togetherjs-template-url-change\" class=\"togetherjs-modal\">\n" +
-                "      <header> {{ gettext('Following to new URL...') }} </header>\n" +
+                "      <header> Following to new URL... </header>\n" +
                 "      <section>\n" +
                 "        <div class=\"togetherjs-person\"></div>\n" +
-                "        {{ gettext('Following') }}\n" +
+                "        Following\n" +
                 "        <span class=\"togetherjs-person-name\"></span>\n" +
-                "        {{ gettext( \"to\" ) }} <a href=\"\" class=\"togetherjs-person-url togetherjs-person-url-title\"></a>\n" +
+                "        to <a href=\"\" class=\"togetherjs-person-url togetherjs-person-url-title\"></a>\n" +
                 "      </section>\n" +
                 "    </div>\n" +
                 "\n" +
@@ -2722,9 +2719,9 @@ And must call:
                 "      <div class=\"togetherjs-person\"></div>\n" +
                 "      <div>\n" +
                 "        <span class=\"togetherjs-person-name\"></span>\n" +
-                "        {{ gettext('has invited') }} <strong class=\"togetherjs-if-forEveryone\">{{ gettext('anyone') }}</strong>\n" +
-                "        <strong class=\"togetherjs-ifnot-forEveryone\">{{ gettext('you') }}</strong>\n" +
-                "        {{ gettext( \"to\" ) }} <a href=\"\" data-togetherjs-subattr-href=\"href\" class=\"togetherjs-sub-hrefTitle\" target=\"_blank\"></a>\n" +
+                "        has invited <strong class=\"togetherjs-if-forEveryone\">anyone</strong>\n" +
+                "        <strong class=\"togetherjs-ifnot-forEveryone\">you</strong>\n" +
+                "        to <a href=\"\" data-togetherjs-subattr-href=\"href\" class=\"togetherjs-sub-hrefTitle\" target=\"_blank\"></a>\n" +
                 "      </div>\n" +
                 "    </div>\n" +
                 "\n" +
