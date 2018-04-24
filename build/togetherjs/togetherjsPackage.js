@@ -5930,10 +5930,12 @@ And must call:
 
                 if (id && section.data("message-id") == id) {
                     doNotify = true;
-
                 }
                 if(session.UrlChangeHandlerPopup){
+                    doNotify = true;
                     session.UrlChangeHandlerPopup = false;
+                }else{
+                    doNotify = false;
                 }
                 //dont pop up for page change
                 if (container.is(":visible")) {
