@@ -151,7 +151,7 @@
     <section class="togetherjs-buttons">
       <!-- Displayed when the peer is at a different URL: -->
       <div class="togetherjs-different-url">
-        <a class="togetherjs-nudge togetherjs-default">{{ gettext('Nudge them') }}</a>
+        <!--<a class="togetherjs-nudge togetherjs-default">{{ gettext('Nudge them') }}</a>-->
         <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary">{{ gettext('Join them') }}</a>
       </div>
       <!-- Displayed when the peer is at your same URL: -->
@@ -251,6 +251,18 @@
     </section>
     <section id="togetherjs-chat-input-box">
       <textarea id="togetherjs-chat-input" placeholder="{{ gettext('Type your message here') }}"></textarea>
+    </section>
+
+    <section class="togetherjs-buttons">
+      <!-- Displayed when the peer is at a different URL: -->
+      <div class="togetherjs-different-url">
+        <!--<a class="togetherjs-nudge togetherjs-default">{{ gettext('Nudge them') }}</a>-->
+        <a href="#" class="togetherjs-follow togetherjs-person-url togetherjs-primary">{{ gettext('Join them') }}</a>
+      </div>
+      <!-- Displayed when the peer is at your same URL: -->
+      <div class="togetherjs-same-url" style="display: none">
+        <span class="togetherjs-person-name"></span> {{ gettext('is on the same page as you.') }}
+      </div>
     </section>
   </div>
 

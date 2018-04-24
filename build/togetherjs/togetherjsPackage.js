@@ -2471,6 +2471,17 @@ And must call:
                 "    <section id=\"togetherjs-chat-input-box\">\n" +
                 "      <textarea id=\"togetherjs-chat-input\" placeholder=\"Type your message here\"></textarea>\n" +
                 "    </section>\n" +
+                "      <section class=\"togetherjs-buttons\">\n" +
+                "          <!-- Displayed when the peer is at a different URL: -->\n" +
+                "          <div class=\"togetherjs-different-url\">\n" +
+                "              <!--<a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>-->\n" +
+                "              <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
+                "          </div>\n" +
+                "          <!-- Displayed when the peer is at your same URL: -->\n" +
+                "          <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
+                "              <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
+                "          </div>\n" +
+                "      </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- this is a kind of warning popped up when you (successfully) start RTC: -->\n" +
