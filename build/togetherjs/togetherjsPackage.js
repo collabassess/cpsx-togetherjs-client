@@ -2323,22 +2323,23 @@ And must call:
                 "            <img class=\"togetherjs-person togetherjs-person-small\" src=\"http://localhost:8080/togetherjs/images/btn-menu-change-avatar.png\">\n" +
                 "            <span class=\"tj-name togetherjs-person-name\">Useronewith alongname</span>\n" +
                 "            <span class=\"tj-status\">&#9679;</span>\n" +
-                "            <p class=\"tj-urllocation togetherjs-buttons\">Currently at: <a class=\"togetherjs-person-url togetherjs-person-url-title\" href=\"\">http://www.location.comwww.location.comwww.location.comasdfsafd</a>\n" +
-                "                    <!-- Displayed when the peer is at a different URL: -->\n" +
-                "                    <div class=\"togetherjs-different-url\">\n" +
-                "                        <!--<a class=\"togetherjs-nudge togetherjs-default tj-btn-sm\">Nudge them</a>-->\n" +
-                "                        <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm\">Join them</a>\n" +
-                "                    </div>\n" +
-                "                    <!-- Displayed when the peer is at your same URL: -->\n" +
-                "                    <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
-                "                        <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
-                "                    </div>\n" +
-                "            </p>\n" +
+                "            <p class=\"tj-urllocation\">Currently at: <a class=\"togetherjs-person-url togetherjs-person-url-title\" href=\"\">http://www.location.comwww.location.comwww.location.comasdfsafd</a></p>\n" +
                 "            <p class=\"tj-follow\">Follow:\n" +
                 "              <label class=\"togetherjs-follow-question\" for=\"togetherjs-person-status-follow\">\n" +
                 "                <input type=\"checkbox\" id=\"togetherjs-person-status-follow\">\n" +
                 "              </label>\n" +
                 "            </p>\n" +
+                "            <section class=\"togetherjs-buttons\">\n" +
+                "              <!-- Displayed when the peer is at a different URL: -->\n" +
+                "              <div class=\"togetherjs-different-url\">\n" +
+                "                <!--<a class=\"togetherjs-nudge togetherjs-default tj-btn-sm\">Nudge them</a>-->\n" +
+                "                <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary tj-btn-sm\">Join them</a>\n" +
+                "              </div>\n" +
+                "              <!-- Displayed when the peer is at your same URL: -->\n" +
+                "              <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
+                "                <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
+                "              </div>\n" +
+                "            </section>\n" +
                 "          </li>\n" +
                 "        </ul>\n" +
                 "    </section>\n" +
@@ -2349,17 +2350,8 @@ And must call:
                 "    <header><div class=\"togetherjs-person togetherjs-person-small\"></div><span class=\"togetherjs-person-name\"></span></header>\n" +
                 "\n" +
                 "    <section class=\"togetherjs-participant-window-main\">\n" +
-                "    <p class=\"togetherjs-participant-window-row togetherjs-buttons\"><strong>Currently at:</strong>\n" +
+                "    <p class=\"togetherjs-participant-window-row\"><strong>Currently at:</strong>\n" +
                 "        <a class=\"togetherjs-person-url togetherjs-person-url-title\"></a>\n" +
-                "        <!-- Displayed when the peer is at a different URL: -->\n" +
-                "        <div class=\"togetherjs-different-url\">\n" +
-                "            <a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>\n" +
-                "            <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
-                "        </div>\n" +
-                "        <!-- Displayed when the peer is at your same URL: -->\n" +
-                "        <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
-                "            <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
-                "        </div>\n" +
                 "      </p>\n" +
                 "\n" +
                 "      <p class=\"togetherjs-participant-window-row\"><strong>Status:</strong>\n" +
@@ -2375,9 +2367,17 @@ And must call:
                 "\n" +
                 "    </section>\n" +
                 "\n" +
-                "    <!--<section class=\"\">-->\n" +
-                "      <!---->\n" +
-                "    <!--</section>-->\n" +
+                "    <section class=\"togetherjs-buttons\">\n" +
+                "      <!-- Displayed when the peer is at a different URL: -->\n" +
+                "      <div class=\"togetherjs-different-url\">\n" +
+                "        <!--<a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>-->\n" +
+                "        <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
+                "      </div>\n" +
+                "      <!-- Displayed when the peer is at your same URL: -->\n" +
+                "      <div class=\"togetherjs-same-url\" style=\"display: none\">\n" +
+                "        <span class=\"togetherjs-person-name\"></span> is on the same page as you.\n" +
+                "      </div>\n" +
+                "    </section>\n" +
                 "  </div>\n" +
                 "\n" +
                 "  <!-- The chat screen: -->\n" +
@@ -2436,33 +2436,33 @@ And must call:
                 "      </div> -->\n" +
                 "\n" +
                 "      <!-- Template for when someone goes to a new URL: -->\n" +
-                "      <div id=\"togetherjs-template-url-change\" class=\"togetherjs-chat-item togetherjs-chat-url-change\">\n" +
-                "        <div class=\"togetherjs-person\"></div>\n" +
-                "        <div class=\"togetherjs-inline-text\">\n" +
-                "          <div class=\"togetherjs-if-sameUrl\">\n" +
-                "            <span class=\"togetherjs-person-name\"></span>\n" +
-                "            is on the same page as you.\n" +
-                "          </div>\n" +
-                "          <div class=\"togetherjs-ifnot-sameUrl\">\n" +
-                "            <span class=\"togetherjs-person-name\"></span>\n" +
-                "            has gone to: <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>\n" +
-                "            <section class=\"togetherjs-buttons togetherjs-buttons-notification-diff-url\">\n" +
-                "              <!-- Displayed when the peer is at a different URL: -->\n" +
-                "              <div class=\"togetherjs-different-url togetherjs-notification-diff-url\">\n" +
-                "                <a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>\n" +
-                "                <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
-                "              </div>\n" +
-                "            </section>\n" +
+                "      <!--<div id=\"togetherjs-template-url-change\" class=\"togetherjs-chat-item togetherjs-chat-url-change\">-->\n" +
+                "        <!--<div class=\"togetherjs-person\"></div>-->\n" +
+                "        <!--<div class=\"togetherjs-inline-text\">-->\n" +
+                "          <!--<div class=\"togetherjs-if-sameUrl\">-->\n" +
+                "            <!--<span class=\"togetherjs-person-name\"></span>-->\n" +
+                "            <!--is on the same page as you.-->\n" +
+                "          <!--</div>-->\n" +
+                "          <!--<div class=\"togetherjs-ifnot-sameUrl\">-->\n" +
+                "            <!--<span class=\"togetherjs-person-name\"></span>-->\n" +
+                "            <!--has gone to: <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>-->\n" +
+                "            <!--<section class=\"togetherjs-buttons togetherjs-buttons-notification-diff-url\">-->\n" +
+                "              <!--&lt;!&ndash; Displayed when the peer is at a different URL: &ndash;&gt;-->\n" +
+                "              <!--<div class=\"togetherjs-different-url togetherjs-notification-diff-url\">-->\n" +
+                "                <!--<a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>-->\n" +
+                "                <!--<a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>-->\n" +
+                "              <!--</div>-->\n" +
+                "            <!--</section>-->\n" +
                 "\n" +
-                "            <!-- <div>\n" +
-                "              <a class=\"togetherjs-nudge togetherjs-secondary\">Nudge them</a>\n" +
-                "              <a href=\"\" class=\"togetherjs-person-url togetherjs-follow togetherjs-primary\">Join them</a>\n" +
-                "            </div> -->\n" +
+                "            <!--&lt;!&ndash; <div>-->\n" +
+                "              <!--<a class=\"togetherjs-nudge togetherjs-secondary\">Nudge them</a>-->\n" +
+                "              <!--<a href=\"\" class=\"togetherjs-person-url togetherjs-follow togetherjs-primary\">Join them</a>-->\n" +
+                "            <!--</div> &ndash;&gt;-->\n" +
                 "\n" +
-                "          </div>\n" +
-                "        </div>\n" +
-                "        <div class=\"togetherjs-clear\"></div>\n" +
-                "      </div>\n" +
+                "          <!--</div>-->\n" +
+                "        <!--</div>-->\n" +
+                "        <!--<div class=\"togetherjs-clear\"></div>-->\n" +
+                "      <!--</div>-->\n" +
                 "    </div>\n" +
                 "\n" +
                 "    <section id=\"togetherjs-chat-messages\">\n" +
