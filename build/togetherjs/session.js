@@ -25,7 +25,7 @@ define(["require", "util", "channels", "jquery", "storage"], function (require, 
   session.firstRun = false;
 
   session.UrlChangeHandler = true;
-  session.UrlChangeHandlerPopup = true;
+  session.UrlChangeHandlerPopup = false;
   // This is the key we use for localStorage:
   var localStoragePrefix = "togetherjs.";
   // This is the channel to the hub:
