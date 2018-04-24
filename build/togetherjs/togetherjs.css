@@ -1212,6 +1212,7 @@ section.togetherjs-buttons .togetherjs-same-url {
   right: 5px;
   border-radius: 4px;
   height: 200px;
+  min-height: 184px;
   width: 60px;
 }
 #togetherjs-dock.togetherjs-dock-right #togetherjs-dock-anchor-vertical {
