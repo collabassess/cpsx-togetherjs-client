@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/temp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,8 +68,8 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="5788" column="63" selection-start-line="5788" selection-start-column="63" selection-end-line="5788" selection-end-column="63" />
+            <state relative-caret-position="266">
+              <caret line="5788" selection-start-line="5788" selection-end-line="5788" />
             </state>
           </provider>
         </entry>
@@ -289,12 +288,12 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="10455000" />
+      <workItem from="1524520121423" duration="10530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20047000" />
+    <option name="totallyTimeSpent" value="20122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +308,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20718816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20718816" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -317,7 +316,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20448878" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20448878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -769,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="5788" column="63" selection-start-line="5788" selection-start-column="63" selection-end-line="5788" selection-end-column="63" />
+        <state relative-caret-position="266">
+          <caret line="5788" selection-start-line="5788" selection-end-line="5788" />
         </state>
       </provider>
     </entry>

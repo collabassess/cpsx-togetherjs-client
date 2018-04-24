@@ -5786,7 +5786,6 @@ And must call:
                 el.attr("data-person", attrs.peer.id)
                     .attr("data-date", date)
                     .attr("data-message-id", attrs.messageId);
-                console.log("attrs messageid"+attrs.messageId);
                 ui.chat.add(el, attrs.messageId, attrs.notify);
             },
 
@@ -5871,7 +5870,7 @@ And must call:
                     // had been shown
                     return;
                 }
-                ui.chat.add(el, messageId, notify);
+                // ui.chat.add(el, messageId, notify);
             },
 
             invite: function (attrs) {
