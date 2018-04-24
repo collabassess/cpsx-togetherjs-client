@@ -24,6 +24,7 @@ define(["require", "util", "channels", "jquery", "storage"], function (require, 
   // Indicates if TogetherJS has just started (not continuing from a saved session):
   session.firstRun = false;
 
+  session.UrlChangeHandler = true;
   // This is the key we use for localStorage:
   var localStoragePrefix = "togetherjs.";
   // This is the channel to the hub:

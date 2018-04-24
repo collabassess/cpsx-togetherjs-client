@@ -5866,16 +5866,21 @@ And must call:
                     location.href = url;
                 });
                 var notify = ! attrs.sameUrl;
+                if(attrs.sameUrl){
+                    session.UrlChangeHandler = true;
+                }
                 if (attrs.sameUrl && ! $("#" + realId).length) {
                     // Don't bother showing a same-url notification, if no previous notification
                     // had been shown
-                    return;
-                }
-                if (! attrs.sameUrl && !(! $("#" + realId).length)){
-                    //don't bother showing a url changed notification, if partners are already on different urls
 
                     return;
                 }
+                if (! attrs.sameUrl && session.UrlChangeHandler){
+                    //don't bother showing a url changed notification, if partners are already on different urls
+                    session.UrlChangeHandler = false;
+                    return;
+                }
+
                 ui.chat.add(el, messageId, notify);
             },
 
@@ -5924,7 +5929,7 @@ And must call:
                     doNotify = true;
                 }
                 //dont pop up for page change
-                if (container.is(":visible") || id.includes("url-change") ) {
+                if (container.is(":visible")) {
                     doNotify = false;
                 }
                 if (doNotify) {
