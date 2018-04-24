@@ -5840,6 +5840,7 @@ And must call:
                 // FIXME: strip off common domain from msg.url?  E.g., if I'm on
                 // http://example.com/foobar, and someone goes to http://example.com/baz then
                 // show only /baz
+                console.log(attrs);
                 // FIXME: truncate long titles
                 if (attrs.title) {
                     title = attrs.title + " (" + attrs.url + ")";
