@@ -5694,8 +5694,8 @@ And must call:
             assert(buttons && Math.floor(buttons) == buttons);
             var iface = $("#togetherjs-dock");
             var newHeight = iface.height() + (BUTTON_HEIGHT * buttons);
-            assert(newHeight >= BUTTON_HEIGHT * 3, "Height went too low (", newHeight,
-                "), should never be less than 3 buttons high (", BUTTON_HEIGHT * 3, ")");
+            assert(newHeight >= BUTTON_HEIGHT * 2, "Height went too low (", newHeight,
+                "), should never be less than 2 buttons high (", BUTTON_HEIGHT * 2, ")");
             iface.css({
                 height: newHeight + "px"
             });
