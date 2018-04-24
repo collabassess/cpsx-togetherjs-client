@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,16 +69,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="1601">
               <caret line="5927" lean-forward="true" selection-start-line="5927" selection-end-line="5927" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -113,19 +122,6 @@
               <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates-en-US.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/togetherjs/templates-en-US.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,8 +166,8 @@
       <find>nudge</find>
       <find>urlChange</find>
       <find>session</find>
-      <find>popup</find>
       <find>session.shareId</find>
+      <find>popup</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,7 +183,6 @@
         <option value="$PROJECT_DIR$/build/togetherjs-min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build/togetherjs/togetherjs.css" />
         <option value="$PROJECT_DIR$/build/togetherjs/ui.js" />
         <option value="$PROJECT_DIR$/dev_files/interface.html" />
@@ -200,6 +195,7 @@
         <option value="$PROJECT_DIR$/build/togetherjs/temp.html" />
         <option value="$PROJECT_DIR$/build/togetherjs/session.js" />
         <option value="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -236,12 +232,6 @@
               <item name="cpsx-togetherjs-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpsx-togetherjs-client" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpsx-togetherjs-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpsx-togetherjs-client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="togetherjs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,12 +288,12 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="15641000" />
+      <workItem from="1524520121423" duration="15948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25233000" />
+    <option name="totallyTimeSpent" value="25540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +316,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20448878" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23940149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -587,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="130" selection-start-line="4" selection-start-column="130" selection-end-line="4" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -800,13 +783,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="1601">
           <caret line="5927" lean-forward="true" selection-start-line="5927" selection-end-line="5927" />
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
         </state>
       </provider>
     </entry>
