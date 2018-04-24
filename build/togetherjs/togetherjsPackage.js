@@ -2437,30 +2437,30 @@ And must call:
                 "\n" +
                 "      <!-- Template for when someone goes to a new URL: -->\n" +
                 "      <div id=\"togetherjs-template-url-change\" class=\"togetherjs-chat-item togetherjs-chat-url-change\">\n" +
-                "        <!--<div class=\"togetherjs-person\"></div>-->\n" +
-                "        <!--<div class=\"togetherjs-inline-text\">-->\n" +
-                "          <!--<div class=\"togetherjs-if-sameUrl\">-->\n" +
-                "            <!--<span class=\"togetherjs-person-name\"></span>-->\n" +
-                "            <!--is on the same page as you.-->\n" +
-                "          <!--</div>-->\n" +
-                "          <!--<div class=\"togetherjs-ifnot-sameUrl\">-->\n" +
-                "            <!--<span class=\"togetherjs-person-name\"></span>-->\n" +
-                "            <!--has gone to: <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>-->\n" +
-                "            <!--<section class=\"togetherjs-buttons togetherjs-buttons-notification-diff-url\">-->\n" +
-                "              <!--&lt;!&ndash; Displayed when the peer is at a different URL: &ndash;&gt;-->\n" +
-                "              <!--<div class=\"togetherjs-different-url togetherjs-notification-diff-url\">-->\n" +
-                "                <!--<a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>-->\n" +
-                "                <!--<a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>-->\n" +
-                "              <!--</div>-->\n" +
-                "            <!--</section>-->\n" +
+                "        <div class=\"togetherjs-person\"></div>\n" +
+                "        <div class=\"togetherjs-inline-text\">\n" +
+                "          <div class=\"togetherjs-if-sameUrl\">\n" +
+                "            <span class=\"togetherjs-person-name\"></span>\n" +
+                "            is on the same page as you.\n" +
+                "          </div>\n" +
+                "          <div class=\"togetherjs-ifnot-sameUrl\">\n" +
+                "            <span class=\"togetherjs-person-name\"></span>\n" +
+                "            has gone to: <a href=\"#\" class=\"togetherjs-person-url togetherjs-person-url-title\" target=\"_self\"></a>\n" +
+                "            <section class=\"togetherjs-buttons togetherjs-buttons-notification-diff-url\">\n" +
+                "              <!-- Displayed when the peer is at a different URL: -->\n" +
+                "              <div class=\"togetherjs-different-url togetherjs-notification-diff-url\">\n" +
+                "                <a class=\"togetherjs-nudge togetherjs-default\">Nudge them</a>\n" +
+                "                <a href=\"#\" class=\"togetherjs-follow togetherjs-person-url togetherjs-primary\">Join them</a>\n" +
+                "              </div>\n" +
+                "            </section>\n" +
                 "\n" +
-                "            <!--&lt;!&ndash; <div>-->\n" +
-                "              <!--<a class=\"togetherjs-nudge togetherjs-secondary\">Nudge them</a>-->\n" +
-                "              <!--<a href=\"\" class=\"togetherjs-person-url togetherjs-follow togetherjs-primary\">Join them</a>-->\n" +
-                "            <!--</div> &ndash;&gt;-->\n" +
+                "            <!-- <div>\n" +
+                "              <a class=\"togetherjs-nudge togetherjs-secondary\">Nudge them</a>\n" +
+                "              <a href=\"\" class=\"togetherjs-person-url togetherjs-follow togetherjs-primary\">Join them</a>\n" +
+                "            </div> -->\n" +
                 "\n" +
-                "          <!--</div>-->\n" +
-                "        <!--</div>-->\n" +
+                "          </div>\n" +
+                "        </div>\n" +
                 "        <div class=\"togetherjs-clear\"></div>\n" +
                 "      </div>\n" +
                 "    </div>\n" +
@@ -5786,6 +5786,7 @@ And must call:
                 el.attr("data-person", attrs.peer.id)
                     .attr("data-date", date)
                     .attr("data-message-id", attrs.messageId);
+                console.log("attrs messageid"+attrs.messageId);
                 ui.chat.add(el, attrs.messageId, attrs.notify);
             },
 
