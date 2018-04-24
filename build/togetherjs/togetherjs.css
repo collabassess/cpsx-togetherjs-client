@@ -18,7 +18,7 @@
 /* http://yuilibrary.com/yui/docs/cssreset/ */
 .togetherjs {
   /*
-YUI 3.10.3 (build 2fb5187)
+YUI 3.10.3 (build2 2fb5187)
 Copyright 2013 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
@@ -1211,7 +1211,7 @@ section.togetherjs-buttons .togetherjs-same-url {
   bottom: 150px;
   right: 5px;
   border-radius: 4px;
-  height: 200px;
+  height: 196px;
   width: 60px;
 }
 #togetherjs-dock.togetherjs-dock-right #togetherjs-dock-anchor-vertical {
@@ -1231,7 +1231,7 @@ section.togetherjs-buttons .togetherjs-same-url {
   bottom: 60px;
   left: 5px;
   border-radius: 0 4px 4px 0;
-  height: 214px;
+  height: 150px;
   width: 60px;
 }
 #togetherjs-dock.togetherjs-dock-left #togetherjs-dock-anchor-vertical {
@@ -1249,10 +1249,10 @@ section.togetherjs-buttons .togetherjs-same-url {
   padding: 0;
   top: 40px;
   left: 50%;
-  margin-left: -130px;
+  margin-left: -98px;
   border-radius: 4px 4px 0 0;
   height: 60px;
-  width: 260px;
+  width: 196px;
 }
 #togetherjs-dock.togetherjs-dock-top #togetherjs-buttons,
 #togetherjs-dock.togetherjs-dock-top #togetherjs-dock-anchor {
