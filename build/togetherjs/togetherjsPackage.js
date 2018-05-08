@@ -5938,6 +5938,8 @@ And must call:
                 }
                 if (doNotify) {
                     section.empty();
+                    console.log("notifying stuff");
+                    console.log(el);
                     section.append(el.clone(true, true));
                     if (section.data("message-id") != id)  {
                         section.data("message-id", id || "");
