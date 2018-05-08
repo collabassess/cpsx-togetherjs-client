@@ -6048,14 +6048,15 @@ And must call:
                 }
                 container.find("." + this.peer.className("togetherjs-person-role-"))
                     .text(this.peer.isCreator ? "Creator" : "Participant");
-                var urlName = this.peer.title || "";
-                if (this.peer.title) {
-                    urlName += " (";
-                }
-                urlName += util.truncateCommonDomain(this.peer.url, location.href);
-                if (this.peer.title) {
-                    urlName += ")";
-                }
+                var temptitle = this.peer.title.split("|")[0]+","+this.peer.title.split("|")[1]
+                var urlName = temptitle  || "";
+                // if (this.peer.title) {
+                //     urlName += " (";
+                // }
+                // urlName += util.truncateCommonDomain(this.peer.url, location.href);
+                // if (this.peer.title) {
+                //     urlName += ")";
+                // }
                 container.find("." + this.peer.className("togetherjs-person-url-title-"))
                     .text(urlName);
                 var url = this.peer.url;
