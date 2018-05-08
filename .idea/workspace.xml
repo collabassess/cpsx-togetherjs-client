@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19128eff-dc14-4a28-85aa-0555f36cbb9c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="interface.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="265" column="14" lean-forward="true" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
+            <state relative-caret-position="5830">
+              <caret line="265" column="14" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="module-descriptions.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/module-descriptions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="264">
               <caret line="12" column="31" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
@@ -42,7 +43,7 @@
       <file leaf-file-name="peers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/peers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12524">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -50,18 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkify.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/togetherjs/linkify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="session.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/session.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="528">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,8 +66,8 @@
       <file leaf-file-name="togetherjsPackage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="5697" column="82" selection-start-line="5697" selection-start-column="82" selection-end-line="5697" selection-end-column="82" />
+            <state relative-caret-position="316">
+              <caret line="5847" column="88" lean-forward="true" selection-start-line="5847" selection-start-column="88" selection-end-line="5847" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -86,7 +80,7 @@
       <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="2178">
               <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -98,8 +92,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -107,7 +101,7 @@
       <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/temp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="5434">
               <caret line="247" column="14" lean-forward="true" selection-end-line="553" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -121,8 +115,8 @@
       <file leaf-file-name="togetherjs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="1216" column="42" lean-forward="true" selection-start-line="1216" selection-start-column="42" selection-end-line="1216" selection-end-column="42" />
+            <state relative-caret-position="26752">
+              <caret line="1216" column="42" selection-start-line="1216" selection-start-column="42" selection-end-line="1216" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -138,7 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>has gone to</find>
       <find>console.warn</find>
       <find>togetherjs-chat-notifier</find>
       <find>Join them</find>
@@ -168,6 +161,7 @@
       <find>height</find>
       <find>Height</find>
       <find>BUTTON_HEIGHT</find>
+      <find>togetherjs-person-url</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -228,17 +222,6 @@
               <item name="cpsx-togetherjs-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpsx-togetherjs-client" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cpsx-togetherjs-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpsx-togetherjs-client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpsx-togetherjs-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpsx-togetherjs-client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="togetherjs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -294,12 +277,14 @@
       <workItem from="1513964827615" duration="2122000" />
       <workItem from="1523393164124" duration="157000" />
       <workItem from="1524519710998" duration="178000" />
-      <workItem from="1524520121423" duration="16975000" />
+      <workItem from="1524520121423" duration="17111000" />
+      <workItem from="1524574866128" duration="2170000" />
+      <workItem from="1525751468981" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26567000" />
+    <option name="totallyTimeSpent" value="29101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,15 +299,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20718816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20718816" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23940149" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17705736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -331,6 +315,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,14 +325,53 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129536">
+          <caret line="5789" column="14" lean-forward="true" selection-start-line="5789" selection-start-column="14" selection-end-line="5789" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5434">
+          <caret line="247" column="14" lean-forward="true" selection-end-line="553" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26752">
+          <caret line="1216" column="42" lean-forward="true" selection-start-line="1216" selection-start-column="42" selection-end-line="1216" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127512">
+          <caret line="5697" column="89" lean-forward="true" selection-start-line="5697" selection-start-column="89" selection-end-line="5697" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/ui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4004">
           <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1524524070812" expanded="true" signature="41699:41810" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,8 +380,9 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#section#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#3;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -375,21 +400,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
           <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,9 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -417,10 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4004">
           <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1524524070812" expanded="true" signature="41699:41810" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,8 +438,9 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#section#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#3;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,21 +458,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
           <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,10 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4004">
           <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1524524070812" expanded="true" signature="41699:41810" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,8 +496,9 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#section#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#3;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,21 +516,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/templates.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7546">
           <caret line="345" column="26" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,8 +537,9 @@
         <state relative-caret-position="1166">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#section#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#3;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
           <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,10 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="1005" column="23" lean-forward="true" selection-start-line="1005" selection-start-column="23" selection-end-line="1005" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1524524070812" expanded="true" signature="41699:41810" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,40 +575,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-72">
           <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev_files/analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev_files/interface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="556" lean-forward="true" selection-start-line="556" selection-end-line="556" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#section#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev_files/togetherjs.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="1148" column="19" selection-start-line="1148" selection-start-column="4" selection-end-line="1148" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/lib/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev_files/analytics.js" />
+    <entry file="file://$PROJECT_DIR$/dev_files/interface.html" />
+    <entry file="file://$PROJECT_DIR$/dev_files/togetherjs.less" />
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -658,42 +607,24 @@
         <state relative-caret-position="255">
           <caret line="2228" column="23" selection-start-line="2228" selection-start-column="23" selection-end-line="2228" selection-end-column="23" />
           <folding>
+            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#button#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="5" lean-forward="true" selection-end-line="262" selection-end-column="102" />
-          <folding>
-            <element signature="e#10#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3784">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding>
-            <element signature="e#7599#7604#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,41 +636,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/templates-en-US.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/templates.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/togetherjs/linkify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/module-descriptions.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="264">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/peers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12524">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -748,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/interface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="265" column="14" lean-forward="true" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
+        <state relative-caret-position="5830">
+          <caret line="265" column="14" selection-start-line="265" selection-start-column="14" selection-end-line="265" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#1;n#div#4;n#div#0;n#!!top" expanded="true" />
@@ -760,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="5434">
           <caret line="247" column="14" lean-forward="true" selection-end-line="553" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -772,8 +687,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/session.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="528">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26752">
+          <caret line="1216" column="42" selection-start-line="1216" selection-start-column="42" selection-end-line="1216" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/togetherjs/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -782,32 +714,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="1216" column="42" lean-forward="true" selection-start-line="1216" selection-start-column="42" selection-end-line="1216" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/togetherjs/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/togetherjs/togetherjsPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="5697" column="82" selection-start-line="5697" selection-start-column="82" selection-end-line="5697" selection-end-column="82" />
+        <state relative-caret-position="316">
+          <caret line="5847" column="88" lean-forward="true" selection-start-line="5847" selection-start-column="88" selection-end-line="5847" selection-end-column="88" />
           <folding>
             <element signature="n#style#0;n#span#1;n#button#0;n#div#2;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />

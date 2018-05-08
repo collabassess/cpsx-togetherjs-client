@@ -5844,7 +5844,8 @@ And must call:
                 console.log("self"+attrs.peer.isSelf);
                 // FIXME: truncate long titles
                 if (attrs.title) {
-                    title = attrs.title + " (" + attrs.url + ")";
+                    // title = attrs.title + " (" + attrs.url + ")";
+                    title = attrs.title.split("|")[0] + "|" + attrs.title.split("|")[1];
                 } else {
                     title = attrs.url;
                 }
