@@ -6048,8 +6048,12 @@ And must call:
                 }
                 container.find("." + this.peer.className("togetherjs-person-role-"))
                     .text(this.peer.isCreator ? "Creator" : "Participant");
-                var temptitle = this.peer.title.split("|")[0]+","+this.peer.title.split("|")[1]
-                var urlName = temptitle  || "";
+
+                var urlName = this.peer.title  || "";
+
+                if(this.peer.title){
+                    urlName = this.peer.title.split("|")[0]+","+this.peer.title.split("|")[1];
+                }
                 // if (this.peer.title) {
                 //     urlName += " (";
                 // }
