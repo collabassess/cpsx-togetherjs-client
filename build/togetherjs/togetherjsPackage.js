@@ -5849,6 +5849,7 @@ And must call:
                 } else {
                     title = attrs.url;
                 }
+                console.log("updating title"+title);
                 var el = templating.sub("url-change", {
                     peer: attrs.peer,
                     date: date,
