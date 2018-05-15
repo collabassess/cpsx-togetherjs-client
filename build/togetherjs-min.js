@@ -9,7 +9,7 @@
         // Disables clicks for a certain element.
         // (e.g., 'canvas' would not show clicks on canvas elements.)
         // Setting this to true will disable clicks globally.
-        dontShowClicks: false,
+        dontShowClicks: true,
         // Experimental feature to echo clicks to certain elements across clients:
         cloneClicks: false,
         // Enable Mozilla or Google analytics on the page when TogetherJS is activated:
@@ -19,7 +19,7 @@
         // The code to enable (this is defaulting to a Mozilla code):
         analyticsCode: "UA-35433268-28",
         // The base URL of the hub (gets filled in below):
-        hubBase: null,
+        hubBase: "https://cpsx-hub.herokuapp.com/",
         // A function that will return the name of the user:
         getUserName: null,
         // A function that will return the color of the user:
@@ -52,7 +52,7 @@
         // If true, then the "Invite a friend" window won't automatically come up
         suppressInvite: false,
         // A room in which to find people to invite to this session,
-        inviteFromRoom: null,
+        inviteFromRoom: false,
         // This is used to keep sessions from crossing over on the same
         // domain, if for some reason you want sessions that are limited
         // to only a portion of the domain:
@@ -69,12 +69,14 @@
         // Ignores the following console messages, disables all messages if set to true
         ignoreMessages: ["cursor-update", "keydown", "scroll-update"],
         // Ignores the following forms (will ignore all forms if set to true):
-        ignoreForms: [":password"]
+        ignoreForms: [":password"],
+        disableShareUrlButton: true
     };
 
     var styleSheet = "/togetherjs/togetherjs.css";
 
-    var baseUrl = "https://cdn.rawgit.com/collabassess/cpsx-togetherjs-client/master/build";
+    var baseUrl = "https://cpsx-ui.herokuapp.com/build";
+
     if (baseUrl == "__" + "baseUrl__") {
         // Reset the variable if it doesn't get substituted
         baseUrl = "";
@@ -487,7 +489,7 @@
         return "TogetherJS";
     };
 
-    var defaultHubBase = "https://hub.togetherjs.com";
+    var defaultHubBase = "https://cpsx-hub.herokuapp.com/";
     if (defaultHubBase == "__" + "hubUrl"+ "__") {
         // Substitution wasn't made
         defaultHubBase = "https://hub.togetherjs.mozillalabs.com";
@@ -623,7 +625,7 @@
     TogetherJS.hub = TogetherJS._mixinEvents({});
 
     TogetherJS._onmessage = function (msg) {
-        var type = msg.type;
+        console.log("is caht msg caught",msg.type);    var type = msg.type;
         if (type.search(/^app\./) === 0) {
             type = type.substr("app.".length);
         } else {
@@ -637,6 +639,7 @@
         if (! TogetherJS.require) {
             throw "You cannot use TogetherJS.send() when TogetherJS is not running";
         }
+
         var session = TogetherJS.require("session");
         session.appSend(msg);
     };
